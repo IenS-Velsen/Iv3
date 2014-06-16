@@ -1,0 +1,11 @@
+[Nederlands]
+De Gemeente Velsen publiceert de Informatie voor derden (Iv3) die zij heeft aangeleverd aan het CBS. Eventuele correcties en nabewerkingen die het CBS op deze gegevens heeft uitgevoerd zijn hierin niet verwerkt.
+De meeste bestanden zijn in het XBRL-formaat. In het verleden is ook een aantal keren het excel-formaat aangelevert aan het CBS. Hier zijn dan geen XBRL-bestanden voor beschikbaar.
+Door wijzigingen van 2009 in de voorgeschreven functieindeling in de Iv3 is het niet mogelijk om de ontbrekende informatie te verstrekken.
+De bestanden en daarin opgenomen gegevens worden geleverd onder de voorwaarden van Creative Commons Zero (CC0). Zie http://creativecommons.org/publicdomain/zero/1.0/legalcode (officiële voorwaarden) of http://creativecommons.org/licenses/zero/1.0/legalcode.nl (officiële vertaling).
+
+[English]
+The Community of Velsen publishes the Information for thirs parties (Informatie voor derden: Iv3) as delivered to the CBS (the national statistical agency of the Netherlands). Any corrections and post-operations executed by the CBS on these data, if any, are not incorporated in these files.
+Most files are in XBRL-format. On a few occasions in the past, the files were delivered in excel-format. For those occasions there are no files in XBRL-format-available.
+Because of the shift of the "functies" in Iv3 of 2009, it is not possible to publish the missing information.
+The files and their data are delivered under the conditions of Creative Commons Zero (CC0). See also http://creativecommons.org/publicdomain/zero/1.0/legalcode.

@@ -1,0 +1,1875 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Aangemaakt door Decade Financials met versie 1.01 - 2009 -->
+<!-- Aangemaakt op 4-5-2010 13:28:37 -->
+
+<xbrl
+  xmlns="http://www.xbrl.org/2003/instance"
+  xmlns:cbs.nl.kredo.gemeenten.cbsf="http://www.cbs.nl/kredo/gemeenten/FunctieBalansContextOmschrijving_30.xsd"
+  xmlns:cbs-gem="http://www.nltaxonomie.nl/2.0/domein/cbs/gemeenten/cbs-gemeenten"
+  xmlns:cbs-gem-cont="http://www.nltaxonomie.nl/2.0/domein/cbs/Gemeenten/cbs-gem-contactinformatie"
+  xmlns:cbs-types="http://www.nltaxonomie.nl/2.0/domein/cbs/types/cbs-types"
+  xmlns:iso4217="http://www.xbrl.org/2003/iso4217"
+  xmlns:link="http://www.xbrl.org/2003/linkbase"
+  xmlns:p0="http://www.nltaxonomie.nl/2.0/report/cbs/rpt-cbs-jaarrapportage-2008"
+  xmlns:p1="http://www.nltaxonomie.nl/2.0/domein/cbs/formset/gemeentelasten/fs-cbs-gemeentelasten"
+  xmlns:p2="http://www.nltaxonomie.nl/2.0/domein/cbs/formset/gemeentebaten/fs-cbs-gemeentebaten"
+  xmlns:p3="http://www.nltaxonomie.nl/2.0/domein/cbs/formset/gemeentebalans/fs-cbs-gemeentebalans"
+  xmlns:p4="http://www.nltaxonomie.nl/2.0/domein/cbs/formset/gemeentecontactinformatie/fs-cbs-gem-contactinformatie"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  >
+
+  <context id="c99999">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>001 Header info</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c842">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F340</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c843">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F341</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c844">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F420</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c845">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F421</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c846">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F422</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c847">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F423</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c848">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F430</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c849">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F431</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c850">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F432</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c851">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F433</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c852">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F440</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c853">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F441</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c854">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F442</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c855">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F443</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c856">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F480</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c857">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F482</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c858">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F510</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c859">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F511</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c860">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F530</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c861">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F531</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c862">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F540</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c863">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F541</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c864">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F550</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c865">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F560</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c866">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F580</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c867">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F610</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c868">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F611</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c869">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F612</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c870">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F613</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c871">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F614</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c872">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F620</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c873">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F621</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c874">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F622</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c876">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F630</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c877">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F641</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c878">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F650</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c879">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F651</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c880">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F652</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c881">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F711</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c882">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F712</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c883">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F714</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c884">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F715</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c886">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F721</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c887">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F722</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c888">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F723</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c889">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F724</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c890">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F725</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c891">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F726</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c898">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F810</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c899">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F820</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c900">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F821</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c901">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F822</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c902">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F823</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c903">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F830</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c904">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F911</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c905">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F913</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c906">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F914</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c907">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F921</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c908">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F922</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c909">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F930</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c910">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F931</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c911">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F932</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c912">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F933</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c913">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F934</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c914">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F935</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c915">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F936</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c916">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F937</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c917">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F938</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c918">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F939</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c919">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F940</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c920">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F941</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c921">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F960</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c922">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F970</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c923">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F980</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c924">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F990</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c925">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>KP1</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c926">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>KP2</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c927">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P111</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c928">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P112</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c929">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P113</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c930">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P114</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c931">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P12</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c932">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P131</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c933">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P132</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c934">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P133</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c935">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P134</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c936">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P135</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c937">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P136</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c938">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P137</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c939">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P138</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c940">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P211</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c941">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P212</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c942">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P213</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c943">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P29</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c828">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F210</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c875">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F623</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c893">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F728</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c839">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F311</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c892">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F727</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c894">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F729</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c895">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F730</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c896">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F731</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c897">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F732</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c885">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F716</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c790">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A111</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c791">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A112</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c792">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A121</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c793">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A122</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c794">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A123</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c795">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A124</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c796">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A125</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c797">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A126</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c798">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A129</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c799">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A1311</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c800">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A1312</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c801">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A1313</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c802">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A1321</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c803">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A1322</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c804">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A1323</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c805">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A1331</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c806">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A1332</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c807">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A1333</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c808">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A211</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c809">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A212</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c810">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A213</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c811">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A214</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c812">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A215</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c813">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A221</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c814">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A222</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c815">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A223</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c816">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A224</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c817">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A225</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c818">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A23</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c819">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A29</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c820">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F001</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c821">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F002</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c822">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F003</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c823">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F004</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c824">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F005</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c825">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F006</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c826">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F120</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c827">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F140</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c829">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F211</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c830">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F212</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c831">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F214</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c832">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F215</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c833">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F220</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c834">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F221</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c835">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F223</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c836">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F230</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c837">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F240</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c838">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F310</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c840">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F320</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <context id="c841">
+    <entity>
+      <identifier scheme="http://www.cbs.nl">Velsen (00453)</identifier>
+      <segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F330</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </segment>
+    </entity>
+  </context>
+  <unit id="Unit1">
+    <measure>iso4217:EUR</measure>
+  </unit>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c845" unitRef="Unit1" precision="INF">197566</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c845" unitRef="Unit1" precision="INF">49824</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c845" unitRef="Unit1" precision="INF">140068</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c845" unitRef="Unit1" precision="INF">1090914</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c845" unitRef="Unit1" precision="INF">9385</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c845" unitRef="Unit1" precision="INF">95324</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c847" unitRef="Unit1" precision="INF">196433</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c847" unitRef="Unit1" precision="INF">68632</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c847" unitRef="Unit1" precision="INF">220831</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c847" unitRef="Unit1" precision="INF">1502337</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c849" unitRef="Unit1" precision="INF">17630</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c849" unitRef="Unit1" precision="INF">19652</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c849" unitRef="Unit1" precision="INF">459420</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c849" unitRef="Unit1" precision="INF">35241</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c851" unitRef="Unit1" precision="INF">98943</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c851" unitRef="Unit1" precision="INF">10946</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c851" unitRef="Unit1" precision="INF">299124</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c852" unitRef="Unit1" precision="INF">1861</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:Revenuesrent321 id="i108" contextRef="c852" unitRef="Unit1" precision="INF">19693</cbs-gem:Revenuesrent321>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c853" unitRef="Unit1" precision="INF">74716</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c853" unitRef="Unit1" precision="INF">25476</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c853" unitRef="Unit1" precision="INF">291040</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c855" unitRef="Unit1" precision="INF">156015</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c855" unitRef="Unit1" precision="INF">18933</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c855" unitRef="Unit1" precision="INF">315191</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c856" unitRef="Unit1" precision="INF">570684</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c856" unitRef="Unit1" precision="INF">50848</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpendituresocialBenefitsInKind423 id="i175" contextRef="c856" unitRef="Unit1" precision="INF">25445</cbs-gem:ExpendituresocialBenefitsInKind423>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c856" unitRef="Unit1" precision="INF">1170505</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:RevenuesrevenuesInRelationToCompensationAndRecoveryOfSocialBenefits421 id="i123" contextRef="c856" unitRef="Unit1" precision="INF">6026</cbs-gem:RevenuesrevenuesInRelationToCompensationAndRecoveryOfSocialBenefits421>
+  <cbs-gem:RevenuescurrentTransfersFromState411 id="i120" contextRef="c856" unitRef="Unit1" precision="INF">526645</cbs-gem:RevenuescurrentTransfersFromState411>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c856" unitRef="Unit1" precision="INF">-10</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c856" unitRef="Unit1" precision="INF">251539</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c857" unitRef="Unit1" precision="INF">675</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c857" unitRef="Unit1" precision="INF">1090</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c857" unitRef="Unit1" precision="INF">74934</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpendituresocialBenefitsInKind423 id="i175" contextRef="c858" unitRef="Unit1" precision="INF">425</cbs-gem:ExpendituresocialBenefitsInKind423>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c858" unitRef="Unit1" precision="INF">869532</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c858" unitRef="Unit1" precision="INF">6981</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c858" unitRef="Unit1" precision="INF">29191</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:RevenuesotherCurrentTransfers423 id="i125" contextRef="c858" unitRef="Unit1" precision="INF">60845</cbs-gem:RevenuesotherCurrentTransfers423>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c858" unitRef="Unit1" precision="INF">139011</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c858" unitRef="Unit1" precision="INF">37559</cbs-gem:Expenditureenergy31>
+  <cbs-gem:ExpenditureemployeesOfThirdParties30 id="i158" contextRef="c858" unitRef="Unit1" precision="INF">46186</cbs-gem:ExpenditureemployeesOfThirdParties30>
+  <cbs-gem:ExpendituresocialContributionsToStaff12 id="i152" contextRef="c858" unitRef="Unit1" precision="INF">-12522</cbs-gem:ExpendituresocialContributionsToStaff12>
+  <cbs-gem:ExpenditurewagesAndSalaries11 id="i151" contextRef="c858" unitRef="Unit1" precision="INF">1302352</cbs-gem:ExpenditurewagesAndSalaries11>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c858" unitRef="Unit1" precision="INF">367831</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c859" unitRef="Unit1" precision="INF">673313</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c859" unitRef="Unit1" precision="INF">23714</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c860" unitRef="Unit1" precision="INF">62754</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c860" unitRef="Unit1" precision="INF">883498</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c860" unitRef="Unit1" precision="INF">77925</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c860" unitRef="Unit1" precision="INF">270742</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:RevenuesotherCurrentTransfers423 id="i125" contextRef="c860" unitRef="Unit1" precision="INF">1245</cbs-gem:RevenuesotherCurrentTransfers423>
+  <cbs-gem:RevenuescurrentTransfersFromState411 id="i120" contextRef="c860" unitRef="Unit1" precision="INF">105479</cbs-gem:RevenuescurrentTransfersFromState411>
+  <cbs-gem:Revenuesrent321 id="i108" contextRef="c860" unitRef="Unit1" precision="INF">893897</cbs-gem:Revenuesrent321>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c860" unitRef="Unit1" precision="INF">1360974</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c860" unitRef="Unit1" precision="INF">249459</cbs-gem:Expenditurereservations60>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c860" unitRef="Unit1" precision="INF">363188</cbs-gem:Expenditureenergy31>
+  <cbs-gem:ExpenditureemployeesOfThirdParties30 id="i158" contextRef="c860" unitRef="Unit1" precision="INF">47684</cbs-gem:ExpenditureemployeesOfThirdParties30>
+  <cbs-gem:ExpenditurewagesAndSalaries11 id="i151" contextRef="c860" unitRef="Unit1" precision="INF">10528</cbs-gem:ExpenditurewagesAndSalaries11>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c860" unitRef="Unit1" precision="INF">851845</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c860" unitRef="Unit1" precision="INF">2066012</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c861" unitRef="Unit1" precision="INF">10000</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c861" unitRef="Unit1" precision="INF">440316</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c861" unitRef="Unit1" precision="INF">23552</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c861" unitRef="Unit1" precision="INF">238511</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:Revenuesrent321 id="i108" contextRef="c861" unitRef="Unit1" precision="INF">116027</cbs-gem:Revenuesrent321>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c861" unitRef="Unit1" precision="INF">-29164</cbs-gem:Expenditurereservations60>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c861" unitRef="Unit1" precision="INF">8486</cbs-gem:Expenditureenergy31>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c861" unitRef="Unit1" precision="INF">2047</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c862" unitRef="Unit1" precision="INF">1176573</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpendituresubsidiesToMarketProducers421 id="i173" contextRef="c862" unitRef="Unit1" precision="INF">50820</cbs-gem:ExpendituresubsidiesToMarketProducers421>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c862" unitRef="Unit1" precision="INF">44297</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c862" unitRef="Unit1" precision="INF">5460</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c862" unitRef="Unit1" precision="INF">19905</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422 id="i124" contextRef="c862" unitRef="Unit1" precision="INF">12840</cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422>
+  <cbs-gem:Revenuesrent321 id="i108" contextRef="c862" unitRef="Unit1" precision="INF">15500</cbs-gem:Revenuesrent321>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c862" unitRef="Unit1" precision="INF">10990</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c862" unitRef="Unit1" precision="INF">5214</cbs-gem:Expenditurereservations60>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c862" unitRef="Unit1" precision="INF">18682</cbs-gem:Expenditureenergy31>
+  <cbs-gem:ExpenditurewagesAndSalaries11 id="i151" contextRef="c862" unitRef="Unit1" precision="INF">247</cbs-gem:ExpenditurewagesAndSalaries11>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c862" unitRef="Unit1" precision="INF">184158</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c863" unitRef="Unit1" precision="INF">238325</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c863" unitRef="Unit1" precision="INF">295496</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c863" unitRef="Unit1" precision="INF">80172</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c863" unitRef="Unit1" precision="INF">211</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:RevenuesotherCurrentTransfers423 id="i125" contextRef="c863" unitRef="Unit1" precision="INF">99266</cbs-gem:RevenuesotherCurrentTransfers423>
+  <cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422 id="i124" contextRef="c863" unitRef="Unit1" precision="INF">10000</cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422>
+  <cbs-gem:Revenuesrent321 id="i108" contextRef="c863" unitRef="Unit1" precision="INF">9043</cbs-gem:Revenuesrent321>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c863" unitRef="Unit1" precision="INF">46505</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c863" unitRef="Unit1" precision="INF">1218</cbs-gem:Expenditurereservations60>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c863" unitRef="Unit1" precision="INF">865</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c863" unitRef="Unit1" precision="INF">183641</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c865" unitRef="Unit1" precision="INF">104885</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c865" unitRef="Unit1" precision="INF">1667127</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c865" unitRef="Unit1" precision="INF">23194</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c865" unitRef="Unit1" precision="INF">201011</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:RevenuessettlementsOfCostCentresForInvestmenstProjects621 id="i142" contextRef="c865" unitRef="Unit1" precision="INF">49185</cbs-gem:RevenuessettlementsOfCostCentresForInvestmenstProjects621>
+  <cbs-gem:Revenuesrent321 id="i108" contextRef="c865" unitRef="Unit1" precision="INF">521585</cbs-gem:Revenuesrent321>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c865" unitRef="Unit1" precision="INF">403772</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c865" unitRef="Unit1" precision="INF">6145</cbs-gem:Expenditurereservations60>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c865" unitRef="Unit1" precision="INF">11847</cbs-gem:Expenditureenergy31>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c865" unitRef="Unit1" precision="INF">221486</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c865" unitRef="Unit1" precision="INF">2271233</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c866" unitRef="Unit1" precision="INF">450</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c866" unitRef="Unit1" precision="INF">169582</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:RevenuessettlementsOfCostCentresForInvestmenstProjects621 id="i142" contextRef="c866" unitRef="Unit1" precision="INF">34140</cbs-gem:RevenuessettlementsOfCostCentresForInvestmenstProjects621>
+  <cbs-gem:RevenuesotherInvestmentGrantsAndCapitalTransfers432 id="i128" contextRef="c866" unitRef="Unit1" precision="INF">3287</cbs-gem:RevenuesotherInvestmentGrantsAndCapitalTransfers432>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c866" unitRef="Unit1" precision="INF">210343</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c866" unitRef="Unit1" precision="INF">2879</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c866" unitRef="Unit1" precision="INF">131651</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpendituresocialBenefitsInCash422 id="i174" contextRef="c867" unitRef="Unit1" precision="INF">10675807</cbs-gem:ExpendituresocialBenefitsInCash422>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c867" unitRef="Unit1" precision="INF">53709</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:RevenuesrevenuesInRelationToCompensationAndRecoveryOfSocialBenefits421 id="i123" contextRef="c867" unitRef="Unit1" precision="INF">463778</cbs-gem:RevenuesrevenuesInRelationToCompensationAndRecoveryOfSocialBenefits421>
+  <cbs-gem:RevenuescurrentTransfersFromState411 id="i120" contextRef="c867" unitRef="Unit1" precision="INF">11479778</cbs-gem:RevenuescurrentTransfersFromState411>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c867" unitRef="Unit1" precision="INF">11975</cbs-gem:Expenditurereservations60>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c867" unitRef="Unit1" precision="INF">1112843</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c868" unitRef="Unit1" precision="INF">6749141</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpendituresubsidiesToMarketProducers421 id="i173" contextRef="c868" unitRef="Unit1" precision="INF">3540</cbs-gem:ExpendituresubsidiesToMarketProducers421>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c868" unitRef="Unit1" precision="INF">284333</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422 id="i124" contextRef="c868" unitRef="Unit1" precision="INF">13453</cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422>
+  <cbs-gem:RevenuescurrentTransfersFromState411 id="i120" contextRef="c868" unitRef="Unit1" precision="INF">6538786</cbs-gem:RevenuescurrentTransfersFromState411>
+  <cbs-gem:ExpenditureemployeesOfThirdParties30 id="i158" contextRef="c868" unitRef="Unit1" precision="INF">10243</cbs-gem:ExpenditureemployeesOfThirdParties30>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c868" unitRef="Unit1" precision="INF">19568</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpendituresocialBenefitsInCash422 id="i174" contextRef="c869" unitRef="Unit1" precision="INF">318739</cbs-gem:ExpendituresocialBenefitsInCash422>
+  <cbs-gem:RevenuesrevenuesInRelationToCompensationAndRecoveryOfSocialBenefits421 id="i123" contextRef="c869" unitRef="Unit1" precision="INF">2260</cbs-gem:RevenuesrevenuesInRelationToCompensationAndRecoveryOfSocialBenefits421>
+  <cbs-gem:RevenuescurrentTransfersFromState411 id="i120" contextRef="c869" unitRef="Unit1" precision="INF">343276</cbs-gem:RevenuescurrentTransfersFromState411>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c869" unitRef="Unit1" precision="INF">32686</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c871" unitRef="Unit1" precision="INF">14439</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpendituresocialBenefitsInKind423 id="i175" contextRef="c871" unitRef="Unit1" precision="INF">6774</cbs-gem:ExpendituresocialBenefitsInKind423>
+  <cbs-gem:ExpendituresocialBenefitsInCash422 id="i174" contextRef="c871" unitRef="Unit1" precision="INF">1773817</cbs-gem:ExpendituresocialBenefitsInCash422>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c871" unitRef="Unit1" precision="INF">149156</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:RevenuesrevenuesInRelationToCompensationAndRecoveryOfSocialBenefits421 id="i123" contextRef="c871" unitRef="Unit1" precision="INF">70218</cbs-gem:RevenuesrevenuesInRelationToCompensationAndRecoveryOfSocialBenefits421>
+  <cbs-gem:Revenuesrent321 id="i108" contextRef="c871" unitRef="Unit1" precision="INF">26317</cbs-gem:Revenuesrent321>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c871" unitRef="Unit1" precision="INF">2</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c871" unitRef="Unit1" precision="INF">677631</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c872" unitRef="Unit1" precision="INF">1458555</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c872" unitRef="Unit1" precision="INF">110700</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c872" unitRef="Unit1" precision="INF">64771</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurewagesAndSalaries11 id="i151" contextRef="c872" unitRef="Unit1" precision="INF">41</cbs-gem:ExpenditurewagesAndSalaries11>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c872" unitRef="Unit1" precision="INF">350590</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c873" unitRef="Unit1" precision="INF">141257</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:RevenuescurrentTransfersFromState411 id="i120" contextRef="c873" unitRef="Unit1" precision="INF">117426</cbs-gem:RevenuescurrentTransfersFromState411>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c873" unitRef="Unit1" precision="INF">24683</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c873" unitRef="Unit1" precision="INF">-116</cbs-gem:Expenditureenergy31>
+  <cbs-gem:ExpenditureemployeesOfThirdParties30 id="i158" contextRef="c873" unitRef="Unit1" precision="INF">3572</cbs-gem:ExpenditureemployeesOfThirdParties30>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c873" unitRef="Unit1" precision="INF">21538</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpendituresocialBenefitsInKind423 id="i175" contextRef="c874" unitRef="Unit1" precision="INF">4813393</cbs-gem:ExpendituresocialBenefitsInKind423>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c874" unitRef="Unit1" precision="INF">67437</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:RevenuesrevenuesInRelationToCompensationAndRecoveryOfSocialBenefits421 id="i123" contextRef="c874" unitRef="Unit1" precision="INF">920079</cbs-gem:RevenuesrevenuesInRelationToCompensationAndRecoveryOfSocialBenefits421>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c874" unitRef="Unit1" precision="INF">354619</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c876" unitRef="Unit1" precision="INF">2260403</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c876" unitRef="Unit1" precision="INF">243129</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c876" unitRef="Unit1" precision="INF">17386</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c876" unitRef="Unit1" precision="INF">11476</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422 id="i124" contextRef="c876" unitRef="Unit1" precision="INF">299851</cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422>
+  <cbs-gem:Revenuesrent321 id="i108" contextRef="c876" unitRef="Unit1" precision="INF">505964</cbs-gem:Revenuesrent321>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c876" unitRef="Unit1" precision="INF">471098</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c876" unitRef="Unit1" precision="INF">-25950</cbs-gem:Expenditurereservations60>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c876" unitRef="Unit1" precision="INF">47398</cbs-gem:Expenditureenergy31>
+  <cbs-gem:ExpenditureemployeesOfThirdParties30 id="i158" contextRef="c876" unitRef="Unit1" precision="INF">49792</cbs-gem:ExpenditureemployeesOfThirdParties30>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c876" unitRef="Unit1" precision="INF">-120000</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c876" unitRef="Unit1" precision="INF">140135</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c878" unitRef="Unit1" precision="INF">757870</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpendituresocialBenefitsInKind423 id="i175" contextRef="c878" unitRef="Unit1" precision="INF">45100</cbs-gem:ExpendituresocialBenefitsInKind423>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c878" unitRef="Unit1" precision="INF">169842</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c878" unitRef="Unit1" precision="INF">12305</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:RevenuesotherCurrentTransfers423 id="i125" contextRef="c878" unitRef="Unit1" precision="INF">2813</cbs-gem:RevenuesotherCurrentTransfers423>
+  <cbs-gem:Revenuesrent321 id="i108" contextRef="c878" unitRef="Unit1" precision="INF">638369</cbs-gem:Revenuesrent321>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c878" unitRef="Unit1" precision="INF">63461</cbs-gem:Expenditurereservations60>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c878" unitRef="Unit1" precision="INF">10436</cbs-gem:Expenditureenergy31>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c878" unitRef="Unit1" precision="INF">7957</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c878" unitRef="Unit1" precision="INF">82645</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c880" unitRef="Unit1" precision="INF">2500</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpendituresocialBenefitsInKind423 id="i175" contextRef="c880" unitRef="Unit1" precision="INF">4476425</cbs-gem:ExpendituresocialBenefitsInKind423>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c880" unitRef="Unit1" precision="INF">-23173</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:RevenuescurrentTransfersFromState411 id="i120" contextRef="c880" unitRef="Unit1" precision="INF">96024</cbs-gem:RevenuescurrentTransfersFromState411>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c880" unitRef="Unit1" precision="INF">281280</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c883" unitRef="Unit1" precision="INF">24100</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c883" unitRef="Unit1" precision="INF">900749</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c883" unitRef="Unit1" precision="INF">3198</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c883" unitRef="Unit1" precision="INF">765</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:Revenuesrent321 id="i108" contextRef="c883" unitRef="Unit1" precision="INF">14035</cbs-gem:Revenuesrent321>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c883" unitRef="Unit1" precision="INF">11784</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c883" unitRef="Unit1" precision="INF">7115</cbs-gem:Expenditurereservations60>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c883" unitRef="Unit1" precision="INF">112605</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c884" unitRef="Unit1" precision="INF">912480</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:RevenuescurrentTransfersFromState411 id="i120" contextRef="c884" unitRef="Unit1" precision="INF">816861</cbs-gem:RevenuescurrentTransfersFromState411>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c884" unitRef="Unit1" precision="INF">17620</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c886" unitRef="Unit1" precision="INF">6782597</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c886" unitRef="Unit1" precision="INF">9602</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:Revenuesreservations60 id="i139" contextRef="c886" unitRef="Unit1" precision="INF">180773</cbs-gem:Revenuesreservations60>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c886" unitRef="Unit1" precision="INF">1450</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c886" unitRef="Unit1" precision="INF">18212</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c887" unitRef="Unit1" precision="INF">561514</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c887" unitRef="Unit1" precision="INF">4299</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c887" unitRef="Unit1" precision="INF">2646981</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c887" unitRef="Unit1" precision="INF">1524</cbs-gem:Expenditurereservations60>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c887" unitRef="Unit1" precision="INF">14368</cbs-gem:Expenditureenergy31>
+  <cbs-gem:ExpenditureemployeesOfThirdParties30 id="i158" contextRef="c887" unitRef="Unit1" precision="INF">7244</cbs-gem:ExpenditureemployeesOfThirdParties30>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c887" unitRef="Unit1" precision="INF">23032</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c887" unitRef="Unit1" precision="INF">388203</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c888" unitRef="Unit1" precision="INF">1462917</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c888" unitRef="Unit1" precision="INF">492083</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:RevenuesotherCurrentTransfers423 id="i125" contextRef="c888" unitRef="Unit1" precision="INF">430639</cbs-gem:RevenuesotherCurrentTransfers423>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c888" unitRef="Unit1" precision="INF">48000</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c889" unitRef="Unit1" precision="INF">99592</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c889" unitRef="Unit1" precision="INF">4201</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c889" unitRef="Unit1" precision="INF">19873</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422 id="i124" contextRef="c889" unitRef="Unit1" precision="INF">9342</cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c889" unitRef="Unit1" precision="INF">51968</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c889" unitRef="Unit1" precision="INF">-22304</cbs-gem:Expenditurereservations60>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c889" unitRef="Unit1" precision="INF">19893</cbs-gem:Expenditureenergy31>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c889" unitRef="Unit1" precision="INF">1081</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c889" unitRef="Unit1" precision="INF">207607</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c890" unitRef="Unit1" precision="INF">8836120</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuestaxesOnIncomeOfHouseholds402 id="i117" contextRef="c891" unitRef="Unit1" precision="INF">5096903</cbs-gem:RevenuestaxesOnIncomeOfHouseholds402>
+  <cbs-gem:RevenuestaxesOnProducers401 id="i116" contextRef="c891" unitRef="Unit1" precision="INF">315687</cbs-gem:RevenuestaxesOnProducers401>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c898" unitRef="Unit1" precision="INF">33771</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c898" unitRef="Unit1" precision="INF">136642</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:RevenuessettlementsOfCostCentresForInvestmenstProjects621 id="i142" contextRef="c898" unitRef="Unit1" precision="INF">168258</cbs-gem:RevenuessettlementsOfCostCentresForInvestmenstProjects621>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c898" unitRef="Unit1" precision="INF">7962</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditureemployeesOfThirdParties30 id="i158" contextRef="c898" unitRef="Unit1" precision="INF">2400</cbs-gem:ExpenditureemployeesOfThirdParties30>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c898" unitRef="Unit1" precision="INF">35708</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c898" unitRef="Unit1" precision="INF">2180144</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c900" unitRef="Unit1" precision="INF">8853</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c900" unitRef="Unit1" precision="INF">23293</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c900" unitRef="Unit1" precision="INF">3002</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c900" unitRef="Unit1" precision="INF">443214</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c901" unitRef="Unit1" precision="INF">405826</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c901" unitRef="Unit1" precision="INF">16286</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:RevenuesotherCurrentTransfers423 id="i125" contextRef="c901" unitRef="Unit1" precision="INF">241373</cbs-gem:RevenuesotherCurrentTransfers423>
+  <cbs-gem:RevenuesrevenuesOfSalesOfLand331 id="i111" contextRef="c901" unitRef="Unit1" precision="INF">97059</cbs-gem:RevenuesrevenuesOfSalesOfLand331>
+  <cbs-gem:RevenuesincomeFromLand322 id="i109" contextRef="c901" unitRef="Unit1" precision="INF">15810</cbs-gem:RevenuesincomeFromLand322>
+  <cbs-gem:Revenuesrent321 id="i108" contextRef="c901" unitRef="Unit1" precision="INF">322608</cbs-gem:Revenuesrent321>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c901" unitRef="Unit1" precision="INF">781815</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c901" unitRef="Unit1" precision="INF">-921</cbs-gem:Expenditureenergy31>
+  <cbs-gem:ExpenditureemployeesOfThirdParties30 id="i158" contextRef="c901" unitRef="Unit1" precision="INF">45</cbs-gem:ExpenditureemployeesOfThirdParties30>
+  <cbs-gem:ExpenditurewagesAndSalaries11 id="i151" contextRef="c901" unitRef="Unit1" precision="INF">62</cbs-gem:ExpenditurewagesAndSalaries11>
+  <cbs-gem:Revenuesreservations60 id="i139" contextRef="c901" unitRef="Unit1" precision="INF">25000</cbs-gem:Revenuesreservations60>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c901" unitRef="Unit1" precision="INF">53129</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesactualReceivedInterestAndDividends21 id="i102" contextRef="c901" unitRef="Unit1" precision="INF">127</cbs-gem:RevenuesactualReceivedInterestAndDividends21>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c901" unitRef="Unit1" precision="INF">1615394</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c902" unitRef="Unit1" precision="INF">3927035</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c903" unitRef="Unit1" precision="INF">1021425</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c903" unitRef="Unit1" precision="INF">59343</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c903" unitRef="Unit1" precision="INF">2710161</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:ExpenditurepurchasesOfLand332 id="i162" contextRef="c903" unitRef="Unit1" precision="INF">383857</cbs-gem:ExpenditurepurchasesOfLand332>
+  <cbs-gem:RevenuesinvestmentGrantsAndOtherCapitalTransfersFromGeneralGovermentExcludingState431 id="i127" contextRef="c903" unitRef="Unit1" precision="INF">123659</cbs-gem:RevenuesinvestmentGrantsAndOtherCapitalTransfersFromGeneralGovermentExcludingState431>
+  <cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422 id="i124" contextRef="c903" unitRef="Unit1" precision="INF">0</cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422>
+  <cbs-gem:RevenuescapitalTransfersFromState412 id="i121" contextRef="c903" unitRef="Unit1" precision="INF">305042</cbs-gem:RevenuescapitalTransfersFromState412>
+  <cbs-gem:RevenuescurrentTransfersFromState411 id="i120" contextRef="c903" unitRef="Unit1" precision="INF">-300000</cbs-gem:RevenuescurrentTransfersFromState411>
+  <cbs-gem:RevenuesrevenuesOfSalesOfLand331 id="i111" contextRef="c903" unitRef="Unit1" precision="INF">6397751</cbs-gem:RevenuesrevenuesOfSalesOfLand331>
+  <cbs-gem:RevenuesincomeFromLand322 id="i109" contextRef="c903" unitRef="Unit1" precision="INF">460858</cbs-gem:RevenuesincomeFromLand322>
+  <cbs-gem:Revenuesrent321 id="i108" contextRef="c903" unitRef="Unit1" precision="INF">1793256</cbs-gem:Revenuesrent321>
+  <cbs-gem:ExpenditureotherSettlements63 id="i196" contextRef="c903" unitRef="Unit1" precision="INF">1832913</cbs-gem:ExpenditureotherSettlements63>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c903" unitRef="Unit1" precision="INF">2119045</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c903" unitRef="Unit1" precision="INF">4115000</cbs-gem:Expenditurereservations60>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c903" unitRef="Unit1" precision="INF">159789</cbs-gem:Expenditureenergy31>
+  <cbs-gem:ExpenditureactualPaidInterest21 id="i154" contextRef="c903" unitRef="Unit1" precision="INF">24735</cbs-gem:ExpenditureactualPaidInterest21>
+  <cbs-gem:RevenuesotherSettlements63 id="i144" contextRef="c903" unitRef="Unit1" precision="INF">957004</cbs-gem:RevenuesotherSettlements63>
+  <cbs-gem:Revenuesreservations60 id="i139" contextRef="c903" unitRef="Unit1" precision="INF">189353</cbs-gem:Revenuesreservations60>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c903" unitRef="Unit1" precision="INF">575672</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesactualReceivedInterestAndDividends21 id="i102" contextRef="c903" unitRef="Unit1" precision="INF">318862</cbs-gem:RevenuesactualReceivedInterestAndDividends21>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c903" unitRef="Unit1" precision="INF">58334</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpendituresettlementsOfCostCentresForInvestmenstProjects621 id="i194" contextRef="c903" unitRef="Unit1" precision="INF">168258</cbs-gem:ExpendituresettlementsOfCostCentresForInvestmenstProjects621>
+  <cbs-gem:RevenuesotherSettlementsOfCostCentres622 id="i143" contextRef="c904" unitRef="Unit1" precision="INF">3607690</cbs-gem:RevenuesotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureactualPaidInterest21 id="i154" contextRef="c904" unitRef="Unit1" precision="INF">105</cbs-gem:ExpenditureactualPaidInterest21>
+  <cbs-gem:RevenuesactualReceivedInterestAndDividends21 id="i102" contextRef="c904" unitRef="Unit1" precision="INF">21656</cbs-gem:RevenuesactualReceivedInterestAndDividends21>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c905" unitRef="Unit1" precision="INF">466533</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c905" unitRef="Unit1" precision="INF">81186</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c905" unitRef="Unit1" precision="INF">143401</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:RevenuesincomeFromLand322 id="i109" contextRef="c905" unitRef="Unit1" precision="INF">70392</cbs-gem:RevenuesincomeFromLand322>
+  <cbs-gem:Revenuesrent321 id="i108" contextRef="c905" unitRef="Unit1" precision="INF">933374</cbs-gem:Revenuesrent321>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c905" unitRef="Unit1" precision="INF">434991</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c905" unitRef="Unit1" precision="INF">742705</cbs-gem:Expenditurereservations60>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c905" unitRef="Unit1" precision="INF">12727</cbs-gem:Expenditureenergy31>
+  <cbs-gem:Revenuesreservations60 id="i139" contextRef="c905" unitRef="Unit1" precision="INF">20521</cbs-gem:Revenuesreservations60>
+  <cbs-gem:RevenuessharesAndOtherEquity57 id="i136" contextRef="c905" unitRef="Unit1" precision="INF">686829</cbs-gem:RevenuessharesAndOtherEquity57>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c905" unitRef="Unit1" precision="INF">2508</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesactualReceivedInterestAndDividends21 id="i102" contextRef="c905" unitRef="Unit1" precision="INF">718126</cbs-gem:RevenuesactualReceivedInterestAndDividends21>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c905" unitRef="Unit1" precision="INF">23600</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:RevenuescurrentTransfersFromState411 id="i120" contextRef="c907" unitRef="Unit1" precision="INF">66148845</cbs-gem:RevenuescurrentTransfersFromState411>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c908" unitRef="Unit1" precision="INF">348786</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c908" unitRef="Unit1" precision="INF">-150</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:RevenuesotherCurrentTransfers423 id="i125" contextRef="c908" unitRef="Unit1" precision="INF">27500</cbs-gem:RevenuesotherCurrentTransfers423>
+  <cbs-gem:RevenuescurrentTransfersFromState411 id="i120" contextRef="c908" unitRef="Unit1" precision="INF">261907</cbs-gem:RevenuescurrentTransfersFromState411>
+  <cbs-gem:Revenuesrent321 id="i108" contextRef="c908" unitRef="Unit1" precision="INF">100</cbs-gem:Revenuesrent321>
+  <cbs-gem:ExpenditureotherSettlements63 id="i196" contextRef="c908" unitRef="Unit1" precision="INF">31051</cbs-gem:ExpenditureotherSettlements63>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c908" unitRef="Unit1" precision="INF">3107203</cbs-gem:Expenditurereservations60>
+  <cbs-gem:ExpenditureactualPaidInterest21 id="i154" contextRef="c908" unitRef="Unit1" precision="INF">3129</cbs-gem:ExpenditureactualPaidInterest21>
+  <cbs-gem:ExpendituresocialContributionsToStaff12 id="i152" contextRef="c908" unitRef="Unit1" precision="INF">-163661</cbs-gem:ExpendituresocialContributionsToStaff12>
+  <cbs-gem:ExpenditurewagesAndSalaries11 id="i151" contextRef="c908" unitRef="Unit1" precision="INF">-85078</cbs-gem:ExpenditurewagesAndSalaries11>
+  <cbs-gem:Revenuesreservations60 id="i139" contextRef="c908" unitRef="Unit1" precision="INF">1202911</cbs-gem:Revenuesreservations60>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c908" unitRef="Unit1" precision="INF">104068</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesactualReceivedInterestAndDividends21 id="i102" contextRef="c908" unitRef="Unit1" precision="INF">236884</cbs-gem:RevenuesactualReceivedInterestAndDividends21>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c908" unitRef="Unit1" precision="INF">17000</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c909" unitRef="Unit1" precision="INF">323916</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c909" unitRef="Unit1" precision="INF">6224</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c909" unitRef="Unit1" precision="INF">208677</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesactualReceivedInterestAndDividends21 id="i102" contextRef="c909" unitRef="Unit1" precision="INF">2378</cbs-gem:RevenuesactualReceivedInterestAndDividends21>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c909" unitRef="Unit1" precision="INF">736909</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:RevenuestaxesOnIncomeOfHouseholds402 id="i117" contextRef="c910" unitRef="Unit1" precision="INF">-57</cbs-gem:RevenuestaxesOnIncomeOfHouseholds402>
+  <cbs-gem:RevenuestaxesOnProducers401 id="i116" contextRef="c910" unitRef="Unit1" precision="INF">2879819</cbs-gem:RevenuestaxesOnProducers401>
+  <cbs-gem:RevenuestaxesOnProducers401 id="i116" contextRef="c911" unitRef="Unit1" precision="INF">10288957</cbs-gem:RevenuestaxesOnProducers401>
+  <cbs-gem:RevenuestaxesOnIncomeOfHouseholds402 id="i117" contextRef="c912" unitRef="Unit1" precision="INF">39675</cbs-gem:RevenuestaxesOnIncomeOfHouseholds402>
+  <cbs-gem:RevenuestaxesOnProducers401 id="i116" contextRef="c915" unitRef="Unit1" precision="INF">195465</cbs-gem:RevenuestaxesOnProducers401>
+  <cbs-gem:RevenuestaxesOnIncomeOfHouseholds402 id="i117" contextRef="c916" unitRef="Unit1" precision="INF">393482</cbs-gem:RevenuestaxesOnIncomeOfHouseholds402>
+  <cbs-gem:RevenuesincomeFromLand322 id="i109" contextRef="c918" unitRef="Unit1" precision="INF">1149631</cbs-gem:RevenuesincomeFromLand322>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c919" unitRef="Unit1" precision="INF">7797</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c919" unitRef="Unit1" precision="INF">99641</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:RevenuesotherSettlementsOfCostCentres622 id="i143" contextRef="c925" unitRef="Unit1" precision="INF">-41916</cbs-gem:RevenuesotherSettlementsOfCostCentres622>
+  <cbs-gem:Expendituredepreciation23 id="i156" contextRef="c925" unitRef="Unit1" precision="INF">8398307</cbs-gem:Expendituredepreciation23>
+  <cbs-gem:ExpenditureactualPaidInterest21 id="i154" contextRef="c925" unitRef="Unit1" precision="INF">8159444</cbs-gem:ExpenditureactualPaidInterest21>
+  <cbs-gem:RevenuescostsOfCapital61 id="i140" contextRef="c925" unitRef="Unit1" precision="INF">20094184</cbs-gem:RevenuescostsOfCapital61>
+  <cbs-gem:RevenuesactualReceivedInterestAndDividends21 id="i102" contextRef="c925" unitRef="Unit1" precision="INF">71258</cbs-gem:RevenuesactualReceivedInterestAndDividends21>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c925" unitRef="Unit1" precision="INF">3565775</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c926" unitRef="Unit1" precision="INF">10944</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c926" unitRef="Unit1" precision="INF">6020564</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c926" unitRef="Unit1" precision="INF">38649</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c926" unitRef="Unit1" precision="INF">234105</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:RevenuesotherSettlementsOfCostCentres622 id="i143" contextRef="c926" unitRef="Unit1" precision="INF">33224787</cbs-gem:RevenuesotherSettlementsOfCostCentres622>
+  <cbs-gem:RevenuesotherCurrentTransfers423 id="i125" contextRef="c926" unitRef="Unit1" precision="INF">4596</cbs-gem:RevenuesotherCurrentTransfers423>
+  <cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422 id="i124" contextRef="c926" unitRef="Unit1" precision="INF">202193</cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c926" unitRef="Unit1" precision="INF">3464613</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c926" unitRef="Unit1" precision="INF">-119179</cbs-gem:Expenditurereservations60>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c926" unitRef="Unit1" precision="INF">269145</cbs-gem:Expenditureenergy31>
+  <cbs-gem:ExpenditureemployeesOfThirdParties30 id="i158" contextRef="c926" unitRef="Unit1" precision="INF">3574179</cbs-gem:ExpenditureemployeesOfThirdParties30>
+  <cbs-gem:ExpenditureactualPaidInterest21 id="i154" contextRef="c926" unitRef="Unit1" precision="INF">3304</cbs-gem:ExpenditureactualPaidInterest21>
+  <cbs-gem:ExpendituresocialContributionsToStaff12 id="i152" contextRef="c926" unitRef="Unit1" precision="INF">2001884</cbs-gem:ExpendituresocialContributionsToStaff12>
+  <cbs-gem:ExpenditurewagesAndSalaries11 id="i151" contextRef="c926" unitRef="Unit1" precision="INF">23369067</cbs-gem:ExpenditurewagesAndSalaries11>
+  <cbs-gem:Revenuesreservations60 id="i139" contextRef="c926" unitRef="Unit1" precision="INF">971944</cbs-gem:Revenuesreservations60>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c926" unitRef="Unit1" precision="INF">319413</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesincomeFromLendingOutPersonnel30 id="i106" contextRef="c926" unitRef="Unit1" precision="INF">37746</cbs-gem:RevenuesincomeFromLendingOutPersonnel30>
+  <cbs-gem:RevenuesactualReceivedInterestAndDividends21 id="i102" contextRef="c926" unitRef="Unit1" precision="INF">2373224</cbs-gem:RevenuesactualReceivedInterestAndDividends21>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c926" unitRef="Unit1" precision="INF">11464064</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c927" unitRef="Unit1" precision="INF">20684126</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c927" unitRef="Unit1" precision="INF">23823780</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:Revenuesreservations60 id="i139" contextRef="c927" unitRef="Unit1" precision="INF">1542699</cbs-gem:Revenuesreservations60>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c927" unitRef="Unit1" precision="INF">4682353</cbs-gem:Expenditurereservations60>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c928" unitRef="Unit1" precision="INF">29195131</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c928" unitRef="Unit1" precision="INF">25189925</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c928" unitRef="Unit1" precision="INF">0</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditureotherSettlements63 id="i196" contextRef="c928" unitRef="Unit1" precision="INF">0</cbs-gem:ExpenditureotherSettlements63>
+  <cbs-gem:Revenuesreservations60 id="i139" contextRef="c928" unitRef="Unit1" precision="INF">16101541</cbs-gem:Revenuesreservations60>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c928" unitRef="Unit1" precision="INF">12096335</cbs-gem:Expenditurereservations60>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c930" unitRef="Unit1" precision="INF">1422370</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c930" unitRef="Unit1" precision="INF">1422370</cbs-gem:Expenditurereservations60>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c931" unitRef="Unit1" precision="INF">29890924</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c931" unitRef="Unit1" precision="INF">22888132</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:ExpendituresocialBenefitsInKind423 id="i175" contextRef="c931" unitRef="Unit1" precision="INF">205532</cbs-gem:ExpendituresocialBenefitsInKind423>
+  <cbs-gem:RevenuescurrentTransfersFromState411 id="i120" contextRef="c931" unitRef="Unit1" precision="INF">0</cbs-gem:RevenuescurrentTransfersFromState411>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c931" unitRef="Unit1" precision="INF">207958</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c931" unitRef="Unit1" precision="INF">0</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c931" unitRef="Unit1" precision="INF">192274</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c931" unitRef="Unit1" precision="INF">7601503</cbs-gem:Expenditurereservations60>
+  <cbs-gem:Revenuesreservations60 id="i139" contextRef="c931" unitRef="Unit1" precision="INF">15210059</cbs-gem:Revenuesreservations60>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c933" unitRef="Unit1" precision="INF">5000000</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c933" unitRef="Unit1" precision="INF">9500000</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:RevenueslongTermLoans56 id="i135" contextRef="c933" unitRef="Unit1" precision="INF">-4500000</cbs-gem:RevenueslongTermLoans56>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c934" unitRef="Unit1" precision="INF">148076279</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c934" unitRef="Unit1" precision="INF">155434300</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:RevenueslongTermLoans56 id="i135" contextRef="c934" unitRef="Unit1" precision="INF">-7358022</cbs-gem:RevenueslongTermLoans56>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c937" unitRef="Unit1" precision="INF">13000000</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c937" unitRef="Unit1" precision="INF">13000000</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c939" unitRef="Unit1" precision="INF">2509964</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c939" unitRef="Unit1" precision="INF">2592277</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:RevenueslongTermLoans56 id="i135" contextRef="c939" unitRef="Unit1" precision="INF">-82313</cbs-gem:RevenueslongTermLoans56>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c942" unitRef="Unit1" precision="INF">4069243</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c942" unitRef="Unit1" precision="INF">2406434</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:RevenuesotherAccountsReceiveableOrPayable58 id="i137" contextRef="c942" unitRef="Unit1" precision="INF">1501474</cbs-gem:RevenuesotherAccountsReceiveableOrPayable58>
+  <cbs-gem:RevenueslongTermLoans56 id="i135" contextRef="c942" unitRef="Unit1" precision="INF">161335</cbs-gem:RevenueslongTermLoans56>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c943" unitRef="Unit1" precision="INF">27869946</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c943" unitRef="Unit1" precision="INF">29908408</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:RevenuesotherAccountsReceiveableOrPayable58 id="i137" contextRef="c943" unitRef="Unit1" precision="INF">-2038462</cbs-gem:RevenuesotherAccountsReceiveableOrPayable58>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c828" unitRef="Unit1" precision="INF">48799</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c828" unitRef="Unit1" precision="INF">2279301</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c828" unitRef="Unit1" precision="INF">32730</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c828" unitRef="Unit1" precision="INF">1629477</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:RevenuessettlementsOfCostCentresForInvestmenstProjects621 id="i142" contextRef="c828" unitRef="Unit1" precision="INF">140940</cbs-gem:RevenuessettlementsOfCostCentresForInvestmenstProjects621>
+  <cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422 id="i124" contextRef="c828" unitRef="Unit1" precision="INF">150000</cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c828" unitRef="Unit1" precision="INF">2415706</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c828" unitRef="Unit1" precision="INF">588350</cbs-gem:Expenditurereservations60>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c828" unitRef="Unit1" precision="INF">305394</cbs-gem:Expenditureenergy31>
+  <cbs-gem:ExpenditureemployeesOfThirdParties30 id="i158" contextRef="c828" unitRef="Unit1" precision="INF">37971</cbs-gem:ExpenditureemployeesOfThirdParties30>
+  <cbs-gem:Revenuesreservations60 id="i139" contextRef="c828" unitRef="Unit1" precision="INF">38631</cbs-gem:Revenuesreservations60>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c828" unitRef="Unit1" precision="INF">492943</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c828" unitRef="Unit1" precision="INF">1041690</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c875" unitRef="Unit1" precision="INF">161840</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c875" unitRef="Unit1" precision="INF">2857643</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpendituresocialBenefitsInKind423 id="i175" contextRef="c875" unitRef="Unit1" precision="INF">448765</cbs-gem:ExpendituresocialBenefitsInKind423>
+  <cbs-gem:RevenuescurrentTransfersFromState411 id="i120" contextRef="c875" unitRef="Unit1" precision="INF">4415059</cbs-gem:RevenuescurrentTransfersFromState411>
+  <cbs-gem:ExpendituresocialBenefitsInCash422 id="i174" contextRef="c875" unitRef="Unit1" precision="INF">172657</cbs-gem:ExpendituresocialBenefitsInCash422>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c875" unitRef="Unit1" precision="INF">1266868</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:RevenuesotherCurrentTransfers423 id="i125" contextRef="c875" unitRef="Unit1" precision="INF">18469</cbs-gem:RevenuesotherCurrentTransfers423>
+  <cbs-gem:RevenuesrevenuesInRelationToCompensationAndRecoveryOfSocialBenefits421 id="i123" contextRef="c875" unitRef="Unit1" precision="INF">210</cbs-gem:RevenuesrevenuesInRelationToCompensationAndRecoveryOfSocialBenefits421>
+  <cbs-gem:ExpenditureemployeesOfThirdParties30 id="i158" contextRef="c875" unitRef="Unit1" precision="INF">36950</cbs-gem:ExpenditureemployeesOfThirdParties30>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c875" unitRef="Unit1" precision="INF">555375</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c839" unitRef="Unit1" precision="INF">101666</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c897" unitRef="Unit1" precision="INF">86942</cbs-gem:Expenditurereservations60>
+  <cbs-gem:Revenuesreservations60 id="i139" contextRef="c897" unitRef="Unit1" precision="INF">64174</cbs-gem:Revenuesreservations60>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c897" unitRef="Unit1" precision="INF">268046</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c885" unitRef="Unit1" precision="INF">66732</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c885" unitRef="Unit1" precision="INF">1109</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:RevenuesotherCurrentTransfers423 id="i125" contextRef="c885" unitRef="Unit1" precision="INF">44903</cbs-gem:RevenuesotherCurrentTransfers423>
+  <cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422 id="i124" contextRef="c885" unitRef="Unit1" precision="INF">279057</cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422>
+  <cbs-gem:RevenuescurrentTransfersFromState411 id="i120" contextRef="c885" unitRef="Unit1" precision="INF">850</cbs-gem:RevenuescurrentTransfersFromState411>
+  <cbs-gem:ExpenditureemployeesOfThirdParties30 id="i158" contextRef="c885" unitRef="Unit1" precision="INF">199100</cbs-gem:ExpenditureemployeesOfThirdParties30>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c885" unitRef="Unit1" precision="INF">188557</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c791" unitRef="Unit1" precision="INF">1</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c791" unitRef="Unit1" precision="INF">1</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c792" unitRef="Unit1" precision="INF">16944481</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c792" unitRef="Unit1" precision="INF">16966997</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:Revenuesdepreciation23 id="i104" contextRef="c792" unitRef="Unit1" precision="INF">1156</cbs-gem:Revenuesdepreciation23>
+  <cbs-gem:RevenuesincomeFromLand322 id="i109" contextRef="c792" unitRef="Unit1" precision="INF">225315</cbs-gem:RevenuesincomeFromLand322>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c792" unitRef="Unit1" precision="INF">19</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c792" unitRef="Unit1" precision="INF">203975</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c793" unitRef="Unit1" precision="INF">4476523</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c793" unitRef="Unit1" precision="INF">4450988</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:Revenuesdepreciation23 id="i104" contextRef="c793" unitRef="Unit1" precision="INF">26240</cbs-gem:Revenuesdepreciation23>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c793" unitRef="Unit1" precision="INF">284500</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:RevenuesrevenuesOfSalesOfLand331 id="i111" contextRef="c793" unitRef="Unit1" precision="INF">232725</cbs-gem:RevenuesrevenuesOfSalesOfLand331>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c794" unitRef="Unit1" precision="INF">58173780</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c794" unitRef="Unit1" precision="INF">61185576</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:Revenuesdepreciation23 id="i104" contextRef="c794" unitRef="Unit1" precision="INF">3345801</cbs-gem:Revenuesdepreciation23>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c794" unitRef="Unit1" precision="INF">3158</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditureotherSettlements63 id="i196" contextRef="c794" unitRef="Unit1" precision="INF">337163</cbs-gem:ExpenditureotherSettlements63>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c795" unitRef="Unit1" precision="INF">67872029</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c795" unitRef="Unit1" precision="INF">65182428</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:Revenuesdepreciation23 id="i104" contextRef="c795" unitRef="Unit1" precision="INF">3894274</cbs-gem:Revenuesdepreciation23>
+  <cbs-gem:RevenuesrevenuesOfSalesOfLand331 id="i111" contextRef="c795" unitRef="Unit1" precision="INF">-6238</cbs-gem:RevenuesrevenuesOfSalesOfLand331>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c795" unitRef="Unit1" precision="INF">53079</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditureotherSettlements63 id="i196" contextRef="c795" unitRef="Unit1" precision="INF">5570334</cbs-gem:ExpenditureotherSettlements63>
+  <cbs-gem:RevenuesinvestmentGrantsAndOtherCapitalTransfersFromGeneralGovermentExcludingState431 id="i127" contextRef="c795" unitRef="Unit1" precision="INF">351342</cbs-gem:RevenuesinvestmentGrantsAndOtherCapitalTransfersFromGeneralGovermentExcludingState431>
+  <cbs-gem:RevenuesotherSettlements63 id="i144" contextRef="c795" unitRef="Unit1" precision="INF">447542</cbs-gem:RevenuesotherSettlements63>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c795" unitRef="Unit1" precision="INF">1853289</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c795" unitRef="Unit1" precision="INF">5978</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c796" unitRef="Unit1" precision="INF">180016</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c796" unitRef="Unit1" precision="INF">1171807</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:Revenuesdepreciation23 id="i104" contextRef="c796" unitRef="Unit1" precision="INF">103701</cbs-gem:Revenuesdepreciation23>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c796" unitRef="Unit1" precision="INF">2441</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:RevenuesinvestmentGrantsAndOtherCapitalTransfersFromGeneralGovermentExcludingState431 id="i127" contextRef="c796" unitRef="Unit1" precision="INF">887601</cbs-gem:RevenuesinvestmentGrantsAndOtherCapitalTransfersFromGeneralGovermentExcludingState431>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c797" unitRef="Unit1" precision="INF">1509697</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c797" unitRef="Unit1" precision="INF">2025848</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:Revenuesdepreciation23 id="i104" contextRef="c797" unitRef="Unit1" precision="INF">507454</cbs-gem:Revenuesdepreciation23>
+  <cbs-gem:ExpenditureotherSettlements63 id="i196" contextRef="c797" unitRef="Unit1" precision="INF">74880</cbs-gem:ExpenditureotherSettlements63>
+  <cbs-gem:RevenuesinvestmentGrantsAndOtherCapitalTransfersFromGeneralGovermentExcludingState431 id="i127" contextRef="c797" unitRef="Unit1" precision="INF">130186</cbs-gem:RevenuesinvestmentGrantsAndOtherCapitalTransfersFromGeneralGovermentExcludingState431>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c797" unitRef="Unit1" precision="INF">46609</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c798" unitRef="Unit1" precision="INF">3640202</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c798" unitRef="Unit1" precision="INF">2930665</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:Revenuesdepreciation23 id="i104" contextRef="c798" unitRef="Unit1" precision="INF">499439</cbs-gem:Revenuesdepreciation23>
+  <cbs-gem:ExpendituresettlementsOfCostCentresForInvestmenstProjects621 id="i194" contextRef="c798" unitRef="Unit1" precision="INF">5040</cbs-gem:ExpendituresettlementsOfCostCentresForInvestmenstProjects621>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c798" unitRef="Unit1" precision="INF">1203</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:RevenuesinvestmentGrantsAndOtherCapitalTransfersFromGeneralGovermentExcludingState431 id="i127" contextRef="c798" unitRef="Unit1" precision="INF">5125</cbs-gem:RevenuesinvestmentGrantsAndOtherCapitalTransfersFromGeneralGovermentExcludingState431>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c798" unitRef="Unit1" precision="INF">433171</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:ExpenditureotherSettlements63 id="i196" contextRef="c798" unitRef="Unit1" precision="INF">774687</cbs-gem:ExpenditureotherSettlements63>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c799" unitRef="Unit1" precision="INF">636223</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c799" unitRef="Unit1" precision="INF">636223</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c801" unitRef="Unit1" precision="INF">863904</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c801" unitRef="Unit1" precision="INF">863904</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c802" unitRef="Unit1" precision="INF">38762544</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c802" unitRef="Unit1" precision="INF">39640676</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:ExpenditurelongTermLoans56 id="i187" contextRef="c802" unitRef="Unit1" precision="INF">-878132</cbs-gem:ExpenditurelongTermLoans56>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c804" unitRef="Unit1" precision="INF">72605</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:ExpenditurelongTermLoans56 id="i187" contextRef="c804" unitRef="Unit1" precision="INF">-72605</cbs-gem:ExpenditurelongTermLoans56>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c805" unitRef="Unit1" precision="INF">7386248</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c805" unitRef="Unit1" precision="INF">7577384</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:ExpenditurelongTermLoans56 id="i187" contextRef="c805" unitRef="Unit1" precision="INF">-191136</cbs-gem:ExpenditurelongTermLoans56>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c807" unitRef="Unit1" precision="INF">46121</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c807" unitRef="Unit1" precision="INF">63434</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:Revenuesdepreciation23 id="i104" contextRef="c807" unitRef="Unit1" precision="INF">17313</cbs-gem:Revenuesdepreciation23>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c808" unitRef="Unit1" precision="INF">11231177</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c808" unitRef="Unit1" precision="INF">14151441</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:ExpenditureotherSettlements63 id="i196" contextRef="c808" unitRef="Unit1" precision="INF">-2920265</cbs-gem:ExpenditureotherSettlements63>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c809" unitRef="Unit1" precision="INF">1311843</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c809" unitRef="Unit1" precision="INF">921469</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:ExpenditureotherSettlements63 id="i196" contextRef="c809" unitRef="Unit1" precision="INF">390374</cbs-gem:ExpenditureotherSettlements63>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c810" unitRef="Unit1" precision="INF">36582279</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c810" unitRef="Unit1" precision="INF">34109133</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c810" unitRef="Unit1" precision="INF">114</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:RevenuesotherSettlements63 id="i144" contextRef="c810" unitRef="Unit1" precision="INF">-442000</cbs-gem:RevenuesotherSettlements63>
+  <cbs-gem:ExpendituresettlementsOfCostCentresForInvestmenstProjects621 id="i194" contextRef="c810" unitRef="Unit1" precision="INF">220425</cbs-gem:ExpendituresettlementsOfCostCentresForInvestmenstProjects621>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c810" unitRef="Unit1" precision="INF">24123</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:RevenuesinvestmentGrantsAndOtherCapitalTransfersFromGeneralGovermentExcludingState431 id="i127" contextRef="c810" unitRef="Unit1" precision="INF">898634</cbs-gem:RevenuesinvestmentGrantsAndOtherCapitalTransfersFromGeneralGovermentExcludingState431>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c810" unitRef="Unit1" precision="INF">8126436</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:ExpenditureotherSettlements63 id="i196" contextRef="c810" unitRef="Unit1" precision="INF">-5441318</cbs-gem:ExpenditureotherSettlements63>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c811" unitRef="Unit1" precision="INF">9612</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c811" unitRef="Unit1" precision="INF">5541</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c811" unitRef="Unit1" precision="INF">4071</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c813" unitRef="Unit1" precision="INF">8447949</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c813" unitRef="Unit1" precision="INF">7426471</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:ExpenditureotherAccountsReceiveableOrPayable58 id="i189" contextRef="c813" unitRef="Unit1" precision="INF">1021479</cbs-gem:ExpenditureotherAccountsReceiveableOrPayable58>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c814" unitRef="Unit1" precision="INF">5000000</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c814" unitRef="Unit1" precision="INF">2000000</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:ExpenditureshortTermLoans55 id="i186" contextRef="c814" unitRef="Unit1" precision="INF">3000000</cbs-gem:ExpenditureshortTermLoans55>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c816" unitRef="Unit1" precision="INF">12087735</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c816" unitRef="Unit1" precision="INF">14415752</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:ExpenditureotherAccountsReceiveableOrPayable58 id="i189" contextRef="c816" unitRef="Unit1" precision="INF">-2328017</cbs-gem:ExpenditureotherAccountsReceiveableOrPayable58>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c818" unitRef="Unit1" precision="INF">5145587</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c818" unitRef="Unit1" precision="INF">316000</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:ExpenditurecurrencyAndDeposits51 id="i182" contextRef="c818" unitRef="Unit1" precision="INF">4829587</cbs-gem:ExpenditurecurrencyAndDeposits51>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c819" unitRef="Unit1" precision="INF">2347033</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c819" unitRef="Unit1" precision="INF">10051286</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:ExpenditureotherAccountsReceiveableOrPayable58 id="i189" contextRef="c819" unitRef="Unit1" precision="INF">-7704253</cbs-gem:ExpenditureotherAccountsReceiveableOrPayable58>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c820" unitRef="Unit1" precision="INF">13500</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c820" unitRef="Unit1" precision="INF">20428</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurewagesAndSalaries11 id="i151" contextRef="c820" unitRef="Unit1" precision="INF">598994</cbs-gem:ExpenditurewagesAndSalaries11>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c821" unitRef="Unit1" precision="INF">269763</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c821" unitRef="Unit1" precision="INF">8500</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c821" unitRef="Unit1" precision="INF">288248</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditureemployeesOfThirdParties30 id="i158" contextRef="c821" unitRef="Unit1" precision="INF">17885</cbs-gem:ExpenditureemployeesOfThirdParties30>
+  <cbs-gem:ExpenditurewagesAndSalaries11 id="i151" contextRef="c821" unitRef="Unit1" precision="INF">653442</cbs-gem:ExpenditurewagesAndSalaries11>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c821" unitRef="Unit1" precision="INF">8942</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c821" unitRef="Unit1" precision="INF">2636529</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c822" unitRef="Unit1" precision="INF">179530</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c822" unitRef="Unit1" precision="INF">1366</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurewagesAndSalaries11 id="i151" contextRef="c822" unitRef="Unit1" precision="INF">21768</cbs-gem:ExpenditurewagesAndSalaries11>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c822" unitRef="Unit1" precision="INF">338</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c822" unitRef="Unit1" precision="INF">941751</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditurecurrentTransfersToState411 id="i170" contextRef="c823" unitRef="Unit1" precision="INF">413906</cbs-gem:ExpenditurecurrentTransfersToState411>
+  <cbs-gem:ExpenditurewagesAndSalaries11 id="i151" contextRef="c823" unitRef="Unit1" precision="INF">-14</cbs-gem:ExpenditurewagesAndSalaries11>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c823" unitRef="Unit1" precision="INF">1319811</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c824" unitRef="Unit1" precision="INF">25200</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c824" unitRef="Unit1" precision="INF">43239</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c824" unitRef="Unit1" precision="INF">60</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422 id="i124" contextRef="c824" unitRef="Unit1" precision="INF">4602</cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c824" unitRef="Unit1" precision="INF">24125</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c824" unitRef="Unit1" precision="INF">24859</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c825" unitRef="Unit1" precision="INF">71195</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c825" unitRef="Unit1" precision="INF">303602</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c826" unitRef="Unit1" precision="INF">5269683</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c826" unitRef="Unit1" precision="INF">41382</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c826" unitRef="Unit1" precision="INF">2205</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c826" unitRef="Unit1" precision="INF">115821</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c826" unitRef="Unit1" precision="INF">52034</cbs-gem:Expenditurereservations60>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c826" unitRef="Unit1" precision="INF">43052</cbs-gem:Expenditureenergy31>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c826" unitRef="Unit1" precision="INF">58913</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c826" unitRef="Unit1" precision="INF">198585</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c827" unitRef="Unit1" precision="INF">154922</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c827" unitRef="Unit1" precision="INF">204041</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c827" unitRef="Unit1" precision="INF">28585</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:RevenuesotherCurrentTransfers423 id="i125" contextRef="c827" unitRef="Unit1" precision="INF">5500</cbs-gem:RevenuesotherCurrentTransfers423>
+  <cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422 id="i124" contextRef="c827" unitRef="Unit1" precision="INF">45780</cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c827" unitRef="Unit1" precision="INF">20168</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c827" unitRef="Unit1" precision="INF">8613</cbs-gem:Expenditurereservations60>
+  <cbs-gem:ExpenditureemployeesOfThirdParties30 id="i158" contextRef="c827" unitRef="Unit1" precision="INF">22561</cbs-gem:ExpenditureemployeesOfThirdParties30>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c827" unitRef="Unit1" precision="INF">95019</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c827" unitRef="Unit1" precision="INF">995852</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c829" unitRef="Unit1" precision="INF">250877</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c829" unitRef="Unit1" precision="INF">3653664</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:RevenuessettlementsOfCostCentresForInvestmenstProjects621 id="i142" contextRef="c829" unitRef="Unit1" precision="INF">1200</cbs-gem:RevenuessettlementsOfCostCentresForInvestmenstProjects621>
+  <cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422 id="i124" contextRef="c829" unitRef="Unit1" precision="INF">77227</cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422>
+  <cbs-gem:ExpenditureotherSettlements63 id="i196" contextRef="c829" unitRef="Unit1" precision="INF">312727</cbs-gem:ExpenditureotherSettlements63>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c829" unitRef="Unit1" precision="INF">1034634</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c829" unitRef="Unit1" precision="INF">642948</cbs-gem:Expenditurereservations60>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c829" unitRef="Unit1" precision="INF">10725</cbs-gem:Expenditureenergy31>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c829" unitRef="Unit1" precision="INF">41569</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c829" unitRef="Unit1" precision="INF">401249</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c831" unitRef="Unit1" precision="INF">18964</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c831" unitRef="Unit1" precision="INF">11382</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c831" unitRef="Unit1" precision="INF">106440</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c832" unitRef="Unit1" precision="INF">365312</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c837" unitRef="Unit1" precision="INF">67570</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c837" unitRef="Unit1" precision="INF">349</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c837" unitRef="Unit1" precision="INF">291138</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c837" unitRef="Unit1" precision="INF">216272</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c837" unitRef="Unit1" precision="INF">166737</cbs-gem:Expenditurereservations60>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c837" unitRef="Unit1" precision="INF">29052</cbs-gem:Expenditureenergy31>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c837" unitRef="Unit1" precision="INF">88109</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c838" unitRef="Unit1" precision="INF">8618</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c838" unitRef="Unit1" precision="INF">122957</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c838" unitRef="Unit1" precision="INF">209133</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c838" unitRef="Unit1" precision="INF">336683</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c838" unitRef="Unit1" precision="INF">55066</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c838" unitRef="Unit1" precision="INF">11422</cbs-gem:Expenditureenergy31>
+  <cbs-gem:ExpenditureemployeesOfThirdParties30 id="i158" contextRef="c838" unitRef="Unit1" precision="INF">4752</cbs-gem:ExpenditureemployeesOfThirdParties30>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c838" unitRef="Unit1" precision="INF">109587</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c840" unitRef="Unit1" precision="INF">15147</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c840" unitRef="Unit1" precision="INF">85000</cbs-gem:Expenditurereservations60>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c840" unitRef="Unit1" precision="INF">64629</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem-cont:Actual id="iActual" contextRef="c99999">Yes</cbs-gem-cont:Actual>
+  <cbs-gem-cont:AddressCity id="iAddressCity" contextRef="c99999">IJmuiden</cbs-gem-cont:AddressCity>
+  <cbs-gem-cont:AddressDescription id="iAddressDescription" contextRef="c99999">Dudokplein</cbs-gem-cont:AddressDescription>
+  <cbs-gem-cont:AddressStateOrCountyOrProvince id="iAddressStateOrCountyOrProvince" contextRef="c99999">Noord Holland</cbs-gem-cont:AddressStateOrCountyOrProvince>
+  <cbs-gem-cont:AddressStreetBoxDescription id="iAddressStreetBoxDescription" contextRef="c99999"> 1</cbs-gem-cont:AddressStreetBoxDescription>
+  <cbs-gem-cont:AddressZipOrPostalCode id="iAddressZipOrPostalCode" contextRef="c99999">1971EN</cbs-gem-cont:AddressZipOrPostalCode>
+  <cbs-gem-cont:Budgeted id="iBudgeted" contextRef="c99999">No</cbs-gem-cont:Budgeted>
+  <cbs-gem-cont:CityOrAreaCode id="iCityOrAreaCode" contextRef="c99999"></cbs-gem-cont:CityOrAreaCode>
+  <cbs-gem-cont:ContactAffiliation id="iContactAffiliation" contextRef="c99999">Financien</cbs-gem-cont:ContactAffiliation>
+  <cbs-gem-cont:ContactName id="iContactName" contextRef="c99999">BvanderMeer</cbs-gem-cont:ContactName>
+  <cbs-gem-cont:ContactTitlePositon id="iContactTitlePosition" contextRef="c99999"></cbs-gem-cont:ContactTitlePositon>
+  <cbs-gem-cont:CountryOrRegionCode id="iCountryOrRegionCode" contextRef="c99999">+31</cbs-gem-cont:CountryOrRegionCode>
+  <cbs-gem-cont:DocumentAuthor id="iDocumentAuthor" contextRef="c99999"></cbs-gem-cont:DocumentAuthor>
+  <cbs-gem-cont:DocumentCreationDate id="iDocumentCreationDate" contextRef="c99999">2010-05-04</cbs-gem-cont:DocumentCreationDate>
+  <cbs-gem-cont:DocumentDescription id="iDocumentDescription" contextRef="c99999">Kredo-jaar</cbs-gem-cont:DocumentDescription>
+  <cbs-gem-cont:DocumentIdentifier id="iDocumentIdentifier" contextRef="c99999">Kredo</cbs-gem-cont:DocumentIdentifier>
+  <cbs-gem-cont:DocumentIntendedRecipientsOrUsers id="iDocumentIntendedRecipientsOrUsers" contextRef="c99999">Centraal bureau voor de Statistiek</cbs-gem-cont:DocumentIntendedRecipientsOrUsers>
+  <cbs-gem-cont:DocumentTitle id="iDocumentTitle" contextRef="c99999"></cbs-gem-cont:DocumentTitle>
+  <cbs-gem-cont:EMailAddressDescription id="iEMailAddressDescription" contextRef="c99999"></cbs-gem-cont:EMailAddressDescription>
+  <cbs-gem-cont:EMailAddressInFull id="iEMailAddressInFull" contextRef="c99999">bmeer@velsen.nl</cbs-gem-cont:EMailAddressInFull>
+  <cbs-gem-cont:EntityBusinessDescription id="iEntityBusinessDescription" contextRef="c99999">06</cbs-gem-cont:EntityBusinessDescription>
+  <cbs-gem-cont:EntityLegalName id="iEntityLegalName" contextRef="c99999">Velsen</cbs-gem-cont:EntityLegalName>
+  <cbs-gem-cont:EntityTaxIdentificationNumber id="iEntityTaxIdentificationNumber" contextRef="c99999">0453</cbs-gem-cont:EntityTaxIdentificationNumber>
+  <cbs-gem-cont:EntityWebSites id="iEntitywebSites" contextRef="c99999"></cbs-gem-cont:EntityWebSites>
+  <cbs-gem-cont:LocalFaxNumber id="iLocalFaxNumber" contextRef="c99999"></cbs-gem-cont:LocalFaxNumber>
+  <cbs-gem-cont:LocalPhoneNumber id="iLocalPhoneNumber" contextRef="c99999">0255-567509</cbs-gem-cont:LocalPhoneNumber>
+  <cbs-gem-cont:PeriodEndDate id="iPeriodEndDate" contextRef="c99999">2009-12-31</cbs-gem-cont:PeriodEndDate>
+  <cbs-gem-cont:PeriodStartDate id="iPeriodStartDate" contextRef="c99999">2009-01-01</cbs-gem-cont:PeriodStartDate>
+</xbrl>
