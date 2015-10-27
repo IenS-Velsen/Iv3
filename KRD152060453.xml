@@ -1,0 +1,2030 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Aangemaakt door UNIT4 Decade met versie 1.03 - 2015 -->
+<!-- Aangemaakt op 30-7-2015 8:55:24 -->
+
+<xbrli:xbrl
+  xmlns="http://www.xbrl.org/2003/instance"
+  xmlns:cbs.nl.kredo.gemeenten.cbsf="http://www.cbs.nl/kredo/gemeenten/FunctieBalansContextOmschrijving_30.xsd"
+  xmlns:cbs-gem="http://www.nltaxonomie.nl/3.0/domein/cbs/gemeenten/cbs-gemeenten"
+  xmlns:cbs-gem-cont="http://www.nltaxonomie.nl/3.0/domein/cbs/Gemeenten/cbs-gemeentecontactinformatie"
+  xmlns:cbs-types="http://www.nltaxonomie.nl/3.0/domein/cbs/types/cbs-types"
+  xmlns:iso4217="http://www.xbrl.org/2003/iso4217"
+  xmlns:link="http://www.xbrl.org/2003/linkbase"
+  xmlns:p0="http://www.nltaxonomie.nl/3.0/report/cbs/rpt-cbs-jaarrapportage-2015"
+  xmlns:p1="http://www.nltaxonomie.nl/3.0/domein/cbs/formset/gemeentelasten/fs-cbs-gemeentelasten"
+  xmlns:p2="http://www.nltaxonomie.nl/3.0/domein/cbs/formset/gemeentebaten/fs-cbs-gemeentebaten"
+  xmlns:p3="http://www.nltaxonomie.nl/3.0/domein/cbs/formset/gemeentebalans/fs-cbs-gemeentebalans"
+  xmlns:p4="http://www.nltaxonomie.nl/3.0/domein/cbs/formset/gemeentecontactinformatie/fs-cbs-gem-contactinformatie"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  >
+
+  <xbrli:context id="c99999">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>001 Header info</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c356">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F340</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c357">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F341</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c358">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F420</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c359">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F421</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1096">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F422</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1097">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F423</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c360">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F430</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c361">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F431</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1100">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F432</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1101">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F433</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c362">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F440</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c363">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F441</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1104">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F442</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1105">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F443</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c364">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F480</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c365">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F482</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c366">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F510</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c367">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F511</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c368">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F530</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c369">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F531</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c370">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F540</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c371">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F541</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c372">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F550</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c373">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F560</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c374">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F580</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c375">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F610</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c376">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F611</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1119">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F612</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c377">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F613</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c378">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F614</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1122">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F620</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c379">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F621</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1124">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F622</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1126">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F630</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c381">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F641</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c382">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F650</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1129">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F651</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1130">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F652</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c394">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F711</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c395">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F712</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c396">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F714</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c397">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F715</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c398">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F721</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c399">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F722</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c400">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F723</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c401">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F724</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c402">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F725</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c403">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F726</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c405">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F810</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c406">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F820</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c407">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F821</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c408">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F822</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c409">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F823</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c410">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F830</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c411">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F911</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c412">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F913</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c413">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F914</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c414">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F921</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c415">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F922</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c417">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F930</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c418">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F931</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c419">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F932</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c420">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F933</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c421">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F934</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c422">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F935</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c423">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F936</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c424">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F937</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c425">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F938</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c426">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F939</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c427">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F940</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1170">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F941</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c428">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F960</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c429">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F970</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c430">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F980</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c432">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F990</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c433">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>KP1</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c434">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>KP2</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c435">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P111</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c436">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P112</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1179">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P113</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c437">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P114</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c439">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P12</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c440">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P131</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c441">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P132</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c442">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P133</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c443">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P134</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1186">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P135</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c446">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P136</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c447">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P137</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c448">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P138</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1190">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P211</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c451">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P212</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c452">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P213</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1193">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P29</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c380">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F623</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1143">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F728</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c354">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F311</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1142">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F727</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1144">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F729</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1145">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F730</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1146">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F731</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c404">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F732</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1135">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F716</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c295">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A111</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c296">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A112</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c297">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A121</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c298">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A122</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c299">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A123</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c300">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A124</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c301">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A125</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c302">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A126</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c303">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A129</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c304">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A1311</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c305">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A1312</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c306">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A1313</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c307">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A1321</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c308">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A1322</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c309">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A1323</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1054">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A1331</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1055">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A1332</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c315">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A1333</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c316">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A211</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c317">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A212</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c318">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A213</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c319">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A214</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c320">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A215</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c321">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A221</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1063">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A222</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1064">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A223</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c326">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A224</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1066">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A225</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c330">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A23</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1068">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A29</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c335">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F001</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c336">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F002</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c337">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F003</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c338">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F004</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c339">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F005</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c340">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F006</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c341">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F120</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c342">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F140</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c344">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F210</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1079">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F211</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c345">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F212</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c346">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F214</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c347">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F215</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c348">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F220</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c349">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F221</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c350">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F223</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c351">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F230</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c352">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F240</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c353">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F310</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c1090">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F320</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c355">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F330</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c343">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F160</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c310">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A1331a</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c311">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A1331b</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c312">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A1332a</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c313">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A1332b</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c314">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A1332c</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c322">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A222a</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c323">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A222b</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c324">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A223a</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c325">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A223b</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c327">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A225a</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c328">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A225b</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c329">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A225c</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c331">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A29a</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c332">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A29b</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c333">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A29c</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c334">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>A29d</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c383">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F661</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c384">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F662</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c385">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F663</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c386">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F667</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c387">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F670</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c388">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F671</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c389">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F672</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c390">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F677</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c391">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F682</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c392">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F683</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c393">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F687</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c416">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F923</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c431">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>F981</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c438">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P115</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c444">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P135a</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c445">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P135b</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c449">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P211a</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c450">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P211b</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c453">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P29a</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c454">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P29b</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c455">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P29c</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:context id="c456">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cbs.nl">Velsen (0453)</xbrli:identifier>
+      <xbrli:segment>
+        <cbs.nl.kredo.gemeenten.cbsf:Functiecode>P29d</cbs.nl.kredo.gemeenten.cbsf:Functiecode>
+      </xbrli:segment>
+    </xbrli:entity>
+  </xbrli:context>
+  <xbrli:unit id="Unit1">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <cbs-gem:Revenuesdepreciation23 id="i104" contextRef="c315" unitRef="Unit1" precision="INF">6234</cbs-gem:Revenuesdepreciation23>
+  <cbs-gem:Revenuesdepreciation23 id="i104" contextRef="c303" unitRef="Unit1" precision="INF">466139</cbs-gem:Revenuesdepreciation23>
+  <cbs-gem:Revenuesdepreciation23 id="i104" contextRef="c302" unitRef="Unit1" precision="INF">19755</cbs-gem:Revenuesdepreciation23>
+  <cbs-gem:Revenuesdepreciation23 id="i104" contextRef="c301" unitRef="Unit1" precision="INF">15824</cbs-gem:Revenuesdepreciation23>
+  <cbs-gem:Revenuesdepreciation23 id="i104" contextRef="c300" unitRef="Unit1" precision="INF">2325765</cbs-gem:Revenuesdepreciation23>
+  <cbs-gem:Revenuesdepreciation23 id="i104" contextRef="c299" unitRef="Unit1" precision="INF">1889544</cbs-gem:Revenuesdepreciation23>
+  <cbs-gem:Revenuesdepreciation23 id="i104" contextRef="c298" unitRef="Unit1" precision="INF">18400</cbs-gem:Revenuesdepreciation23>
+  <cbs-gem:Revenuesdepreciation23 id="i104" contextRef="c297" unitRef="Unit1" precision="INF">346</cbs-gem:Revenuesdepreciation23>
+  <cbs-gem:Revenuesdepreciation23 id="i104" contextRef="c296" unitRef="Unit1" precision="INF">6728</cbs-gem:Revenuesdepreciation23>
+  <cbs-gem:RevenuesincomeFromLendingOutPersonnel30 id="i106" contextRef="c335" unitRef="Unit1" precision="INF">22004</cbs-gem:RevenuesincomeFromLendingOutPersonnel30>
+  <cbs-gem:RevenuesincomeFromLendingOutPersonnel30 id="i106" contextRef="c434" unitRef="Unit1" precision="INF">123853</cbs-gem:RevenuesincomeFromLendingOutPersonnel30>
+  <cbs-gem:Revenuesrent321 id="i108" contextRef="c387" unitRef="Unit1" precision="INF">200154</cbs-gem:Revenuesrent321>
+  <cbs-gem:Revenuesrent321 id="i108" contextRef="c412" unitRef="Unit1" precision="INF">481751</cbs-gem:Revenuesrent321>
+  <cbs-gem:Revenuesrent321 id="i108" contextRef="c410" unitRef="Unit1" precision="INF">265534</cbs-gem:Revenuesrent321>
+  <cbs-gem:Revenuesrent321 id="i108" contextRef="c408" unitRef="Unit1" precision="INF">154384</cbs-gem:Revenuesrent321>
+  <cbs-gem:Revenuesrent321 id="i108" contextRef="c407" unitRef="Unit1" precision="INF">8398</cbs-gem:Revenuesrent321>
+  <cbs-gem:Revenuesrent321 id="i108" contextRef="c382" unitRef="Unit1" precision="INF">317828</cbs-gem:Revenuesrent321>
+  <cbs-gem:Revenuesrent321 id="i108" contextRef="c378" unitRef="Unit1" precision="INF">60</cbs-gem:Revenuesrent321>
+  <cbs-gem:Revenuesrent321 id="i108" contextRef="c373" unitRef="Unit1" precision="INF">481152</cbs-gem:Revenuesrent321>
+  <cbs-gem:Revenuesrent321 id="i108" contextRef="c370" unitRef="Unit1" precision="INF">31715</cbs-gem:Revenuesrent321>
+  <cbs-gem:Revenuesrent321 id="i108" contextRef="c369" unitRef="Unit1" precision="INF">55932</cbs-gem:Revenuesrent321>
+  <cbs-gem:Revenuesrent321 id="i108" contextRef="c368" unitRef="Unit1" precision="INF">293821</cbs-gem:Revenuesrent321>
+  <cbs-gem:Revenuesrent321 id="i108" contextRef="c366" unitRef="Unit1" precision="INF">42382</cbs-gem:Revenuesrent321>
+  <cbs-gem:Revenuesrent321 id="i108" contextRef="c359" unitRef="Unit1" precision="INF">634</cbs-gem:Revenuesrent321>
+  <cbs-gem:RevenuesincomeFromLand322 id="i109" contextRef="c426" unitRef="Unit1" precision="INF">37984</cbs-gem:RevenuesincomeFromLand322>
+  <cbs-gem:RevenuesincomeFromLand322 id="i109" contextRef="c412" unitRef="Unit1" precision="INF">62157</cbs-gem:RevenuesincomeFromLand322>
+  <cbs-gem:RevenuesincomeFromLand322 id="i109" contextRef="c410" unitRef="Unit1" precision="INF">266427</cbs-gem:RevenuesincomeFromLand322>
+  <cbs-gem:RevenuesrevenuesOfSalesOfLand331 id="i111" contextRef="c300" unitRef="Unit1" precision="INF">42852</cbs-gem:RevenuesrevenuesOfSalesOfLand331>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c387" unitRef="Unit1" precision="INF">910</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c353" unitRef="Unit1" precision="INF">-11105</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c347" unitRef="Unit1" precision="INF">121883</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c344" unitRef="Unit1" precision="INF">517132</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c342" unitRef="Unit1" precision="INF">137316</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c341" unitRef="Unit1" precision="INF">536</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c338" unitRef="Unit1" precision="INF">789599</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c335" unitRef="Unit1" precision="INF">1237</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c318" unitRef="Unit1" precision="INF">-556505</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c303" unitRef="Unit1" precision="INF">36060</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c404" unitRef="Unit1" precision="INF">97900</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c354" unitRef="Unit1" precision="INF">59546</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c434" unitRef="Unit1" precision="INF">319649</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c417" unitRef="Unit1" precision="INF">46682</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c412" unitRef="Unit1" precision="INF">-26721</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c410" unitRef="Unit1" precision="INF">34975</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c408" unitRef="Unit1" precision="INF">-334055</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c407" unitRef="Unit1" precision="INF">4331</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c405" unitRef="Unit1" precision="INF">3474</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c402" unitRef="Unit1" precision="INF">11023547</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c399" unitRef="Unit1" precision="INF">-1255390</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c398" unitRef="Unit1" precision="INF">-115629</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c382" unitRef="Unit1" precision="INF">1516</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c373" unitRef="Unit1" precision="INF">4781</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c368" unitRef="Unit1" precision="INF">223559</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuesotherNonDurableGoodsAndServices34 id="i113" contextRef="c359" unitRef="Unit1" precision="INF">1100</cbs-gem:RevenuesotherNonDurableGoodsAndServices34>
+  <cbs-gem:RevenuestaxesOnProducers401 id="i116" contextRef="c423" unitRef="Unit1" precision="INF">295745</cbs-gem:RevenuestaxesOnProducers401>
+  <cbs-gem:RevenuestaxesOnProducers401 id="i116" contextRef="c419" unitRef="Unit1" precision="INF">11487251</cbs-gem:RevenuestaxesOnProducers401>
+  <cbs-gem:RevenuestaxesOnProducers401 id="i116" contextRef="c418" unitRef="Unit1" precision="INF">2864999</cbs-gem:RevenuestaxesOnProducers401>
+  <cbs-gem:RevenuestaxesOnIncomeOfHouseholds402 id="i117" contextRef="c424" unitRef="Unit1" precision="INF">385650</cbs-gem:RevenuestaxesOnIncomeOfHouseholds402>
+  <cbs-gem:RevenuestaxesOnIncomeOfHouseholds402 id="i117" contextRef="c420" unitRef="Unit1" precision="INF">28516</cbs-gem:RevenuestaxesOnIncomeOfHouseholds402>
+  <cbs-gem:RevenuestaxesOnIncomeOfHouseholds402 id="i117" contextRef="c403" unitRef="Unit1" precision="INF">4737205</cbs-gem:RevenuestaxesOnIncomeOfHouseholds402>
+  <cbs-gem:RevenuescurrentTransfersFromState411 id="i120" contextRef="c416" unitRef="Unit1" precision="INF">16671304</cbs-gem:RevenuescurrentTransfersFromState411>
+  <cbs-gem:RevenuescurrentTransfersFromState411 id="i120" contextRef="c414" unitRef="Unit1" precision="INF">29436927</cbs-gem:RevenuescurrentTransfersFromState411>
+  <cbs-gem:RevenuescurrentTransfersFromState411 id="i120" contextRef="c379" unitRef="Unit1" precision="INF">25000</cbs-gem:RevenuescurrentTransfersFromState411>
+  <cbs-gem:RevenuescurrentTransfersFromState411 id="i120" contextRef="c375" unitRef="Unit1" precision="INF">8529731</cbs-gem:RevenuescurrentTransfersFromState411>
+  <cbs-gem:RevenuescurrentTransfersFromState411 id="i120" contextRef="c364" unitRef="Unit1" precision="INF">409991</cbs-gem:RevenuescurrentTransfersFromState411>
+  <cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422 id="i124" contextRef="c393" unitRef="Unit1" precision="INF">6141</cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422>
+  <cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422 id="i124" contextRef="c388" unitRef="Unit1" precision="INF">155100</cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422>
+  <cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422 id="i124" contextRef="c387" unitRef="Unit1" precision="INF">8000</cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422>
+  <cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422 id="i124" contextRef="c386" unitRef="Unit1" precision="INF">18491</cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422>
+  <cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422 id="i124" contextRef="c384" unitRef="Unit1" precision="INF">639470</cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422>
+  <cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422 id="i124" contextRef="c434" unitRef="Unit1" precision="INF">44256</cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422>
+  <cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422 id="i124" contextRef="c415" unitRef="Unit1" precision="INF">204150</cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422>
+  <cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422 id="i124" contextRef="c378" unitRef="Unit1" precision="INF">142265</cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422>
+  <cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422 id="i124" contextRef="c375" unitRef="Unit1" precision="INF">309814</cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422>
+  <cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422 id="i124" contextRef="c370" unitRef="Unit1" precision="INF">10000</cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422>
+  <cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422 id="i124" contextRef="c364" unitRef="Unit1" precision="INF">1152</cbs-gem:RevenuesotherCurrentTransfersFromGeneralGovermentExcludingState422>
+  <cbs-gem:RevenuesotherCurrentTransfers423 id="i125" contextRef="c342" unitRef="Unit1" precision="INF">5309</cbs-gem:RevenuesotherCurrentTransfers423>
+  <cbs-gem:RevenuesinvestmentGrantsAndOtherCapitalTransfersFromGeneralGovermentExcludingState431 id="i127" contextRef="c318" unitRef="Unit1" precision="INF">239068</cbs-gem:RevenuesinvestmentGrantsAndOtherCapitalTransfersFromGeneralGovermentExcludingState431>
+  <cbs-gem:RevenuesinvestmentGrantsAndOtherCapitalTransfersFromGeneralGovermentExcludingState431 id="i127" contextRef="c399" unitRef="Unit1" precision="INF">806</cbs-gem:RevenuesinvestmentGrantsAndOtherCapitalTransfersFromGeneralGovermentExcludingState431>
+  <cbs-gem:RevenueslongTermLoans56 id="i135" contextRef="c442" unitRef="Unit1" precision="INF">-4985189</cbs-gem:RevenueslongTermLoans56>
+  <cbs-gem:RevenuesotherAccountsReceiveableOrPayable58 id="i137" contextRef="c456" unitRef="Unit1" precision="INF">-5962549</cbs-gem:RevenuesotherAccountsReceiveableOrPayable58>
+  <cbs-gem:RevenuesotherAccountsReceiveableOrPayable58 id="i137" contextRef="c455" unitRef="Unit1" precision="INF">-253067</cbs-gem:RevenuesotherAccountsReceiveableOrPayable58>
+  <cbs-gem:RevenuesotherAccountsReceiveableOrPayable58 id="i137" contextRef="c454" unitRef="Unit1" precision="INF">3001188</cbs-gem:RevenuesotherAccountsReceiveableOrPayable58>
+  <cbs-gem:RevenuesotherAccountsReceiveableOrPayable58 id="i137" contextRef="c452" unitRef="Unit1" precision="INF">36141</cbs-gem:RevenuesotherAccountsReceiveableOrPayable58>
+  <cbs-gem:Revenuesreservations60 id="i139" contextRef="c318" unitRef="Unit1" precision="INF">140000</cbs-gem:Revenuesreservations60>
+  <cbs-gem:Revenuesreservations60 id="i139" contextRef="c439" unitRef="Unit1" precision="INF">10000</cbs-gem:Revenuesreservations60>
+  <cbs-gem:RevenuescostsOfCapital61 id="i140" contextRef="c433" unitRef="Unit1" precision="INF">9174774</cbs-gem:RevenuescostsOfCapital61>
+  <cbs-gem:RevenuesotherSettlementsOfCostCentres622 id="i143" contextRef="c434" unitRef="Unit1" precision="INF">30993023</cbs-gem:RevenuesotherSettlementsOfCostCentres622>
+  <cbs-gem:RevenuesotherSettlementsOfCostCentres622 id="i143" contextRef="c433" unitRef="Unit1" precision="INF">-3508984</cbs-gem:RevenuesotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditurewagesAndSalaries11 id="i151" contextRef="c353" unitRef="Unit1" precision="INF">360</cbs-gem:ExpenditurewagesAndSalaries11>
+  <cbs-gem:ExpenditurewagesAndSalaries11 id="i151" contextRef="c337" unitRef="Unit1" precision="INF">10796</cbs-gem:ExpenditurewagesAndSalaries11>
+  <cbs-gem:ExpenditurewagesAndSalaries11 id="i151" contextRef="c336" unitRef="Unit1" precision="INF">60</cbs-gem:ExpenditurewagesAndSalaries11>
+  <cbs-gem:ExpenditurewagesAndSalaries11 id="i151" contextRef="c335" unitRef="Unit1" precision="INF">681742</cbs-gem:ExpenditurewagesAndSalaries11>
+  <cbs-gem:ExpenditurewagesAndSalaries11 id="i151" contextRef="c434" unitRef="Unit1" precision="INF">13363155</cbs-gem:ExpenditurewagesAndSalaries11>
+  <cbs-gem:ExpenditurewagesAndSalaries11 id="i151" contextRef="c408" unitRef="Unit1" precision="INF">157</cbs-gem:ExpenditurewagesAndSalaries11>
+  <cbs-gem:ExpenditurewagesAndSalaries11 id="i151" contextRef="c368" unitRef="Unit1" precision="INF">10</cbs-gem:ExpenditurewagesAndSalaries11>
+  <cbs-gem:ExpendituresocialContributionsToStaff12 id="i152" contextRef="c341" unitRef="Unit1" precision="INF">13401</cbs-gem:ExpendituresocialContributionsToStaff12>
+  <cbs-gem:ExpendituresocialContributionsToStaff12 id="i152" contextRef="c335" unitRef="Unit1" precision="INF">132582</cbs-gem:ExpendituresocialContributionsToStaff12>
+  <cbs-gem:ExpendituresocialContributionsToStaff12 id="i152" contextRef="c439" unitRef="Unit1" precision="INF">15102</cbs-gem:ExpendituresocialContributionsToStaff12>
+  <cbs-gem:ExpendituresocialContributionsToStaff12 id="i152" contextRef="c434" unitRef="Unit1" precision="INF">156959</cbs-gem:ExpendituresocialContributionsToStaff12>
+  <cbs-gem:ExpenditureactualPaidInterest21 id="i154" contextRef="c433" unitRef="Unit1" precision="INF">772033</cbs-gem:ExpenditureactualPaidInterest21>
+  <cbs-gem:ExpenditureactualPaidInterest21 id="i154" contextRef="c411" unitRef="Unit1" precision="INF">153521</cbs-gem:ExpenditureactualPaidInterest21>
+  <cbs-gem:Expendituredepreciation23 id="i156" contextRef="c433" unitRef="Unit1" precision="INF">4742935</cbs-gem:Expendituredepreciation23>
+  <cbs-gem:ExpenditureemployeesOfThirdParties30 id="i158" contextRef="c388" unitRef="Unit1" precision="INF">22354</cbs-gem:ExpenditureemployeesOfThirdParties30>
+  <cbs-gem:ExpenditureemployeesOfThirdParties30 id="i158" contextRef="c344" unitRef="Unit1" precision="INF">15018</cbs-gem:ExpenditureemployeesOfThirdParties30>
+  <cbs-gem:ExpenditureemployeesOfThirdParties30 id="i158" contextRef="c342" unitRef="Unit1" precision="INF">86135</cbs-gem:ExpenditureemployeesOfThirdParties30>
+  <cbs-gem:ExpenditureemployeesOfThirdParties30 id="i158" contextRef="c434" unitRef="Unit1" precision="INF">1237923</cbs-gem:ExpenditureemployeesOfThirdParties30>
+  <cbs-gem:ExpenditureemployeesOfThirdParties30 id="i158" contextRef="c417" unitRef="Unit1" precision="INF">482</cbs-gem:ExpenditureemployeesOfThirdParties30>
+  <cbs-gem:ExpenditureemployeesOfThirdParties30 id="i158" contextRef="c408" unitRef="Unit1" precision="INF">3375</cbs-gem:ExpenditureemployeesOfThirdParties30>
+  <cbs-gem:ExpenditureemployeesOfThirdParties30 id="i158" contextRef="c405" unitRef="Unit1" precision="INF">44774</cbs-gem:ExpenditureemployeesOfThirdParties30>
+  <cbs-gem:ExpenditureemployeesOfThirdParties30 id="i158" contextRef="c373" unitRef="Unit1" precision="INF">81453</cbs-gem:ExpenditureemployeesOfThirdParties30>
+  <cbs-gem:ExpenditureemployeesOfThirdParties30 id="i158" contextRef="c371" unitRef="Unit1" precision="INF">-5440</cbs-gem:ExpenditureemployeesOfThirdParties30>
+  <cbs-gem:ExpenditureemployeesOfThirdParties30 id="i158" contextRef="c368" unitRef="Unit1" precision="INF">14004</cbs-gem:ExpenditureemployeesOfThirdParties30>
+  <cbs-gem:ExpenditureemployeesOfThirdParties30 id="i158" contextRef="c364" unitRef="Unit1" precision="INF">18955</cbs-gem:ExpenditureemployeesOfThirdParties30>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c387" unitRef="Unit1" precision="INF">22655</cbs-gem:Expenditureenergy31>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c353" unitRef="Unit1" precision="INF">14896</cbs-gem:Expenditureenergy31>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c352" unitRef="Unit1" precision="INF">16323</cbs-gem:Expenditureenergy31>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c344" unitRef="Unit1" precision="INF">157688</cbs-gem:Expenditureenergy31>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c342" unitRef="Unit1" precision="INF">899</cbs-gem:Expenditureenergy31>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c341" unitRef="Unit1" precision="INF">26207</cbs-gem:Expenditureenergy31>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c434" unitRef="Unit1" precision="INF">101261</cbs-gem:Expenditureenergy31>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c412" unitRef="Unit1" precision="INF">11268</cbs-gem:Expenditureenergy31>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c410" unitRef="Unit1" precision="INF">107794</cbs-gem:Expenditureenergy31>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c408" unitRef="Unit1" precision="INF">765</cbs-gem:Expenditureenergy31>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c401" unitRef="Unit1" precision="INF">17068</cbs-gem:Expenditureenergy31>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c399" unitRef="Unit1" precision="INF">14734</cbs-gem:Expenditureenergy31>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c382" unitRef="Unit1" precision="INF">7382</cbs-gem:Expenditureenergy31>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c373" unitRef="Unit1" precision="INF">3588</cbs-gem:Expenditureenergy31>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c370" unitRef="Unit1" precision="INF">24973</cbs-gem:Expenditureenergy31>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c369" unitRef="Unit1" precision="INF">-784</cbs-gem:Expenditureenergy31>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c368" unitRef="Unit1" precision="INF">210265</cbs-gem:Expenditureenergy31>
+  <cbs-gem:Expenditureenergy31 id="i159" contextRef="c359" unitRef="Unit1" precision="INF">649</cbs-gem:Expenditureenergy31>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c353" unitRef="Unit1" precision="INF">50000</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c352" unitRef="Unit1" precision="INF">74003</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c344" unitRef="Unit1" precision="INF">1100260</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c342" unitRef="Unit1" precision="INF">41940</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c319" unitRef="Unit1" precision="INF">-4692</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c318" unitRef="Unit1" precision="INF">6017635</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c303" unitRef="Unit1" precision="INF">238083</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c300" unitRef="Unit1" precision="INF">0</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c439" unitRef="Unit1" precision="INF">-140000</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c434" unitRef="Unit1" precision="INF">101224</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c410" unitRef="Unit1" precision="INF">1939138</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c405" unitRef="Unit1" precision="INF">115055</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c401" unitRef="Unit1" precision="INF">7985</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c373" unitRef="Unit1" precision="INF">105441</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c371" unitRef="Unit1" precision="INF">107</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c369" unitRef="Unit1" precision="INF">33123</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:ExpenditureotherPurchasesOfDurableGoods333 id="i163" contextRef="c368" unitRef="Unit1" precision="INF">319114</cbs-gem:ExpenditureotherPurchasesOfDurableGoods333>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c388" unitRef="Unit1" precision="INF">644</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c387" unitRef="Unit1" precision="INF">15034</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c344" unitRef="Unit1" precision="INF">10796</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c341" unitRef="Unit1" precision="INF">3665</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c434" unitRef="Unit1" precision="INF">31637</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c412" unitRef="Unit1" precision="INF">74310</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c410" unitRef="Unit1" precision="INF">30592</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c408" unitRef="Unit1" precision="INF">973</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c407" unitRef="Unit1" precision="INF">916</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c401" unitRef="Unit1" precision="INF">4230</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c399" unitRef="Unit1" precision="INF">3926</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c398" unitRef="Unit1" precision="INF">87747</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c382" unitRef="Unit1" precision="INF">14460</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c373" unitRef="Unit1" precision="INF">6005</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c371" unitRef="Unit1" precision="INF">2054</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c370" unitRef="Unit1" precision="INF">7222</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c369" unitRef="Unit1" precision="INF">18212</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c368" unitRef="Unit1" precision="INF">81482</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c366" unitRef="Unit1" precision="INF">1597</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c363" unitRef="Unit1" precision="INF">87277</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c361" unitRef="Unit1" precision="INF">28710</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpendituretaxPayments341 id="i165" contextRef="c359" unitRef="Unit1" precision="INF">109072</cbs-gem:ExpendituretaxPayments341>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c392" unitRef="Unit1" precision="INF">2801</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c388" unitRef="Unit1" precision="INF">34793</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c387" unitRef="Unit1" precision="INF">-112907</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c384" unitRef="Unit1" precision="INF">5227</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c353" unitRef="Unit1" precision="INF">190343</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c352" unitRef="Unit1" precision="INF">76891</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c346" unitRef="Unit1" precision="INF">15297</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c344" unitRef="Unit1" precision="INF">789083</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c342" unitRef="Unit1" precision="INF">105249</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c341" unitRef="Unit1" precision="INF">20504</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c340" unitRef="Unit1" precision="INF">38153</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c338" unitRef="Unit1" precision="INF">22</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c337" unitRef="Unit1" precision="INF">146054</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c336" unitRef="Unit1" precision="INF">173705</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c335" unitRef="Unit1" precision="INF">108994</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c318" unitRef="Unit1" precision="INF">135027</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c300" unitRef="Unit1" precision="INF">499</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c299" unitRef="Unit1" precision="INF">3543</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c380" unitRef="Unit1" precision="INF">997652</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c439" unitRef="Unit1" precision="INF">31895</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c434" unitRef="Unit1" precision="INF">4015466</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c417" unitRef="Unit1" precision="INF">126052</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c412" unitRef="Unit1" precision="INF">177061</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c410" unitRef="Unit1" precision="INF">71665</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c408" unitRef="Unit1" precision="INF">190061</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c407" unitRef="Unit1" precision="INF">46100</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c406" unitRef="Unit1" precision="INF">500</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c405" unitRef="Unit1" precision="INF">187476</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c401" unitRef="Unit1" precision="INF">101794</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c400" unitRef="Unit1" precision="INF">60906</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c399" unitRef="Unit1" precision="INF">321828</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c398" unitRef="Unit1" precision="INF">4028456</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c397" unitRef="Unit1" precision="INF">-38738</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c382" unitRef="Unit1" precision="INF">163543</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c379" unitRef="Unit1" precision="INF">16787</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c378" unitRef="Unit1" precision="INF">127408</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c375" unitRef="Unit1" precision="INF">6331</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c374" unitRef="Unit1" precision="INF">58954</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c373" unitRef="Unit1" precision="INF">386071</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c371" unitRef="Unit1" precision="INF">-30819</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c370" unitRef="Unit1" precision="INF">-1764</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c369" unitRef="Unit1" precision="INF">10160</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c368" unitRef="Unit1" precision="INF">635882</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c367" unitRef="Unit1" precision="INF">-20071</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c366" unitRef="Unit1" precision="INF">-94276</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c364" unitRef="Unit1" precision="INF">262862</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c363" unitRef="Unit1" precision="INF">47920</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c361" unitRef="Unit1" precision="INF">12202</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343 id="i167" contextRef="c359" unitRef="Unit1" precision="INF">150672</cbs-gem:ExpenditurepurchasesOfNonDurableGoodsAndServices343>
+  <cbs-gem:ExpenditurecurrentTransfersToState411 id="i170" contextRef="c338" unitRef="Unit1" precision="INF">74503</cbs-gem:ExpenditurecurrentTransfersToState411>
+  <cbs-gem:ExpenditurecurrentTransfersToState411 id="i170" contextRef="c337" unitRef="Unit1" precision="INF">157205</cbs-gem:ExpenditurecurrentTransfersToState411>
+  <cbs-gem:ExpendituresubsidiesToMarketProducers421 id="i173" contextRef="c353" unitRef="Unit1" precision="INF">15657</cbs-gem:ExpendituresubsidiesToMarketProducers421>
+  <cbs-gem:ExpendituresubsidiesToMarketProducers421 id="i173" contextRef="c408" unitRef="Unit1" precision="INF">229008</cbs-gem:ExpendituresubsidiesToMarketProducers421>
+  <cbs-gem:ExpendituresubsidiesToMarketProducers421 id="i173" contextRef="c382" unitRef="Unit1" precision="INF">560037</cbs-gem:ExpendituresubsidiesToMarketProducers421>
+  <cbs-gem:ExpendituresubsidiesToMarketProducers421 id="i173" contextRef="c370" unitRef="Unit1" precision="INF">576486</cbs-gem:ExpendituresubsidiesToMarketProducers421>
+  <cbs-gem:ExpendituresocialBenefitsInCash422 id="i174" contextRef="c439" unitRef="Unit1" precision="INF">79766</cbs-gem:ExpendituresocialBenefitsInCash422>
+  <cbs-gem:ExpendituresocialBenefitsInCash422 id="i174" contextRef="c378" unitRef="Unit1" precision="INF">1030933</cbs-gem:ExpendituresocialBenefitsInCash422>
+  <cbs-gem:ExpendituresocialBenefitsInCash422 id="i174" contextRef="c375" unitRef="Unit1" precision="INF">9570090</cbs-gem:ExpendituresocialBenefitsInCash422>
+  <cbs-gem:ExpendituresocialBenefitsInKind423 id="i175" contextRef="c392" unitRef="Unit1" precision="INF">251001</cbs-gem:ExpendituresocialBenefitsInKind423>
+  <cbs-gem:ExpendituresocialBenefitsInKind423 id="i175" contextRef="c391" unitRef="Unit1" precision="INF">5167020</cbs-gem:ExpendituresocialBenefitsInKind423>
+  <cbs-gem:ExpendituresocialBenefitsInKind423 id="i175" contextRef="c389" unitRef="Unit1" precision="INF">710896</cbs-gem:ExpendituresocialBenefitsInKind423>
+  <cbs-gem:ExpendituresocialBenefitsInKind423 id="i175" contextRef="c388" unitRef="Unit1" precision="INF">23671</cbs-gem:ExpendituresocialBenefitsInKind423>
+  <cbs-gem:ExpendituresocialBenefitsInKind423 id="i175" contextRef="c387" unitRef="Unit1" precision="INF">486517</cbs-gem:ExpendituresocialBenefitsInKind423>
+  <cbs-gem:ExpendituresocialBenefitsInKind423 id="i175" contextRef="c384" unitRef="Unit1" precision="INF">4210755</cbs-gem:ExpendituresocialBenefitsInKind423>
+  <cbs-gem:ExpendituresocialBenefitsInKind423 id="i175" contextRef="c383" unitRef="Unit1" precision="INF">612273</cbs-gem:ExpendituresocialBenefitsInKind423>
+  <cbs-gem:ExpendituresocialBenefitsInKind423 id="i175" contextRef="c380" unitRef="Unit1" precision="INF">9072</cbs-gem:ExpendituresocialBenefitsInKind423>
+  <cbs-gem:ExpendituresocialBenefitsInKind423 id="i175" contextRef="c378" unitRef="Unit1" precision="INF">588478</cbs-gem:ExpendituresocialBenefitsInKind423>
+  <cbs-gem:ExpendituresocialBenefitsInKind423 id="i175" contextRef="c364" unitRef="Unit1" precision="INF">16183</cbs-gem:ExpendituresocialBenefitsInKind423>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c388" unitRef="Unit1" precision="INF">2354104</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c387" unitRef="Unit1" precision="INF">1314555</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c344" unitRef="Unit1" precision="INF">56088</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c342" unitRef="Unit1" precision="INF">3819</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c341" unitRef="Unit1" precision="INF">2567172</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c380" unitRef="Unit1" precision="INF">34926</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c400" unitRef="Unit1" precision="INF">511022</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c397" unitRef="Unit1" precision="INF">694321</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c379" unitRef="Unit1" precision="INF">85583</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c378" unitRef="Unit1" precision="INF">46387</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c376" unitRef="Unit1" precision="INF">4273735</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c373" unitRef="Unit1" precision="INF">28500</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c371" unitRef="Unit1" precision="INF">284910</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c368" unitRef="Unit1" precision="INF">5930</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c367" unitRef="Unit1" precision="INF">372333</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c366" unitRef="Unit1" precision="INF">1396790</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c365" unitRef="Unit1" precision="INF">1713</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c364" unitRef="Unit1" precision="INF">692780</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424 id="i176" contextRef="c363" unitRef="Unit1" precision="INF">0</cbs-gem:ExpenditurecurrentTransfersToGeneralGovermentExcludingState424>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c387" unitRef="Unit1" precision="INF">64899</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c336" unitRef="Unit1" precision="INF">31280</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c335" unitRef="Unit1" precision="INF">17560</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c434" unitRef="Unit1" precision="INF">4355</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c407" unitRef="Unit1" precision="INF">5518</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c378" unitRef="Unit1" precision="INF">12000</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c371" unitRef="Unit1" precision="INF">8284</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c370" unitRef="Unit1" precision="INF">161807</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c368" unitRef="Unit1" precision="INF">40063</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditureotherCurrentTransfers425 id="i177" contextRef="c367" unitRef="Unit1" precision="INF">48500</cbs-gem:ExpenditureotherCurrentTransfers425>
+  <cbs-gem:ExpenditurecurrencyAndDeposits51 id="i182" contextRef="c330" unitRef="Unit1" precision="INF">-748479</cbs-gem:ExpenditurecurrencyAndDeposits51>
+  <cbs-gem:ExpenditurelongTermLoans56 id="i187" contextRef="c311" unitRef="Unit1" precision="INF">-70763</cbs-gem:ExpenditurelongTermLoans56>
+  <cbs-gem:ExpenditurelongTermLoans56 id="i187" contextRef="c307" unitRef="Unit1" precision="INF">-556973</cbs-gem:ExpenditurelongTermLoans56>
+  <cbs-gem:ExpenditureotherAccountsReceiveableOrPayable58 id="i189" contextRef="c334" unitRef="Unit1" precision="INF">-3973870</cbs-gem:ExpenditureotherAccountsReceiveableOrPayable58>
+  <cbs-gem:ExpenditureotherAccountsReceiveableOrPayable58 id="i189" contextRef="c333" unitRef="Unit1" precision="INF">-630025</cbs-gem:ExpenditureotherAccountsReceiveableOrPayable58>
+  <cbs-gem:ExpenditureotherAccountsReceiveableOrPayable58 id="i189" contextRef="c332" unitRef="Unit1" precision="INF">-22028</cbs-gem:ExpenditureotherAccountsReceiveableOrPayable58>
+  <cbs-gem:ExpenditureotherAccountsReceiveableOrPayable58 id="i189" contextRef="c326" unitRef="Unit1" precision="INF">11624621</cbs-gem:ExpenditureotherAccountsReceiveableOrPayable58>
+  <cbs-gem:ExpenditureotherAccountsReceiveableOrPayable58 id="i189" contextRef="c321" unitRef="Unit1" precision="INF">-4020271</cbs-gem:ExpenditureotherAccountsReceiveableOrPayable58>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c439" unitRef="Unit1" precision="INF">140000</cbs-gem:Expenditurereservations60>
+  <cbs-gem:Expenditurereservations60 id="i191" contextRef="c408" unitRef="Unit1" precision="INF">10000</cbs-gem:Expenditurereservations60>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c388" unitRef="Unit1" precision="INF">76214</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c387" unitRef="Unit1" precision="INF">201295</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c353" unitRef="Unit1" precision="INF">22510</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c352" unitRef="Unit1" precision="INF">83032</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c346" unitRef="Unit1" precision="INF">4545</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c344" unitRef="Unit1" precision="INF">1529631</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c342" unitRef="Unit1" precision="INF">6733</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c341" unitRef="Unit1" precision="INF">39254</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c336" unitRef="Unit1" precision="INF">3781</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c434" unitRef="Unit1" precision="INF">869624</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c412" unitRef="Unit1" precision="INF">141482</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c410" unitRef="Unit1" precision="INF">615648</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c408" unitRef="Unit1" precision="INF">395156</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c406" unitRef="Unit1" precision="INF">195474</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c405" unitRef="Unit1" precision="INF">39873</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c401" unitRef="Unit1" precision="INF">15503</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c399" unitRef="Unit1" precision="INF">1674907</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c398" unitRef="Unit1" precision="INF">3950</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c382" unitRef="Unit1" precision="INF">404</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c374" unitRef="Unit1" precision="INF">105062</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c373" unitRef="Unit1" precision="INF">253517</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c370" unitRef="Unit1" precision="INF">1979</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c368" unitRef="Unit1" precision="INF">802609</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c366" unitRef="Unit1" precision="INF">10194</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c363" unitRef="Unit1" precision="INF">530497</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c361" unitRef="Unit1" precision="INF">323782</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditurecostsOfCapital61 id="i192" contextRef="c359" unitRef="Unit1" precision="INF">1228120</cbs-gem:ExpenditurecostsOfCapital61>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c388" unitRef="Unit1" precision="INF">203016</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c387" unitRef="Unit1" precision="INF">667685</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c384" unitRef="Unit1" precision="INF">329989</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c383" unitRef="Unit1" precision="INF">346532</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c353" unitRef="Unit1" precision="INF">223660</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c352" unitRef="Unit1" precision="INF">56185</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c348" unitRef="Unit1" precision="INF">63064</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c347" unitRef="Unit1" precision="INF">11249</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c346" unitRef="Unit1" precision="INF">84474</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c344" unitRef="Unit1" precision="INF">1195632</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c342" unitRef="Unit1" precision="INF">803220</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c341" unitRef="Unit1" precision="INF">62638</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c340" unitRef="Unit1" precision="INF">297924</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c337" unitRef="Unit1" precision="INF">751037</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c336" unitRef="Unit1" precision="INF">1611630</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c335" unitRef="Unit1" precision="INF">393859</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c380" unitRef="Unit1" precision="INF">310655</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c434" unitRef="Unit1" precision="INF">11996515</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c427" unitRef="Unit1" precision="INF">47981</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c417" unitRef="Unit1" precision="INF">626105</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c412" unitRef="Unit1" precision="INF">52582</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c411" unitRef="Unit1" precision="INF">-3508984</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c410" unitRef="Unit1" precision="INF">43403</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c408" unitRef="Unit1" precision="INF">1992367</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c407" unitRef="Unit1" precision="INF">2380</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c405" unitRef="Unit1" precision="INF">1612099</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c401" unitRef="Unit1" precision="INF">108162</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c399" unitRef="Unit1" precision="INF">479145</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c398" unitRef="Unit1" precision="INF">164944</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c397" unitRef="Unit1" precision="INF">22918</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c382" unitRef="Unit1" precision="INF">26341</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c379" unitRef="Unit1" precision="INF">190661</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c378" unitRef="Unit1" precision="INF">788775</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c376" unitRef="Unit1" precision="INF">1697</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c375" unitRef="Unit1" precision="INF">1207671</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c374" unitRef="Unit1" precision="INF">96676</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c373" unitRef="Unit1" precision="INF">1799175</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c371" unitRef="Unit1" precision="INF">83163</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c370" unitRef="Unit1" precision="INF">97163</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c368" unitRef="Unit1" precision="INF">1735527</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c367" unitRef="Unit1" precision="INF">9083</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c366" unitRef="Unit1" precision="INF">8026</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c365" unitRef="Unit1" precision="INF">21545</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c364" unitRef="Unit1" precision="INF">255685</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c363" unitRef="Unit1" precision="INF">48370</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c361" unitRef="Unit1" precision="INF">16687</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlementsOfCostCentres622 id="i195" contextRef="c359" unitRef="Unit1" precision="INF">45730</cbs-gem:ExpenditureotherSettlementsOfCostCentres622>
+  <cbs-gem:ExpenditureotherSettlements63 id="i196" contextRef="c318" unitRef="Unit1" precision="INF">0</cbs-gem:ExpenditureotherSettlements63>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c456" unitRef="Unit1" precision="INF">7004851</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c455" unitRef="Unit1" precision="INF">2500587</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c454" unitRef="Unit1" precision="INF">258783</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c450" unitRef="Unit1" precision="INF">5000000</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c445" unitRef="Unit1" precision="INF">25000000</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c334" unitRef="Unit1" precision="INF">6979771</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c333" unitRef="Unit1" precision="INF">630025</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c332" unitRef="Unit1" precision="INF">798244</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c311" unitRef="Unit1" precision="INF">6143004</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c330" unitRef="Unit1" precision="INF">101438</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c326" unitRef="Unit1" precision="INF">7976772</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c321" unitRef="Unit1" precision="INF">8531533</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c319" unitRef="Unit1" precision="INF">12693</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c318" unitRef="Unit1" precision="INF">48576093</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c317" unitRef="Unit1" precision="INF">2587413</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c315" unitRef="Unit1" precision="INF">24938</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c307" unitRef="Unit1" precision="INF">8176743</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c306" unitRef="Unit1" precision="INF">854612</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c304" unitRef="Unit1" precision="INF">636223</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c303" unitRef="Unit1" precision="INF">3671731</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c302" unitRef="Unit1" precision="INF">47541</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c301" unitRef="Unit1" precision="INF">153434</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c300" unitRef="Unit1" precision="INF">75004048</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c299" unitRef="Unit1" precision="INF">69447943</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c298" unitRef="Unit1" precision="INF">3285680</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c297" unitRef="Unit1" precision="INF">15072284</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c296" unitRef="Unit1" precision="INF">40369</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c452" unitRef="Unit1" precision="INF">6705477</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c448" unitRef="Unit1" precision="INF">3699964</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c446" unitRef="Unit1" precision="INF">13000000</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c442" unitRef="Unit1" precision="INF">114002641</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c439" unitRef="Unit1" precision="INF">31835138</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c436" unitRef="Unit1" precision="INF">24828187</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearBeginning id="i197" contextRef="c435" unitRef="Unit1" precision="INF">18752086</cbs-gem:BalanceSheetyearBeginning>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c456" unitRef="Unit1" precision="INF">1042302</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c455" unitRef="Unit1" precision="INF">2247520</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c454" unitRef="Unit1" precision="INF">3259971</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c450" unitRef="Unit1" precision="INF">5000000</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c445" unitRef="Unit1" precision="INF">25000000</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c334" unitRef="Unit1" precision="INF">3005902</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c332" unitRef="Unit1" precision="INF">776216</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c311" unitRef="Unit1" precision="INF">6072241</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c330" unitRef="Unit1" precision="INF">-647042</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c326" unitRef="Unit1" precision="INF">19601394</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c321" unitRef="Unit1" precision="INF">4511263</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c319" unitRef="Unit1" precision="INF">8001</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c318" unitRef="Unit1" precision="INF">54906192</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c317" unitRef="Unit1" precision="INF">2587413</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c315" unitRef="Unit1" precision="INF">18704</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c307" unitRef="Unit1" precision="INF">7619770</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c306" unitRef="Unit1" precision="INF">854612</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c304" unitRef="Unit1" precision="INF">636223</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c303" unitRef="Unit1" precision="INF">3407616</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c302" unitRef="Unit1" precision="INF">27786</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c301" unitRef="Unit1" precision="INF">137611</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c300" unitRef="Unit1" precision="INF">72635931</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c299" unitRef="Unit1" precision="INF">67567740</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c298" unitRef="Unit1" precision="INF">3267280</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c297" unitRef="Unit1" precision="INF">15071939</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c296" unitRef="Unit1" precision="INF">33641</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c452" unitRef="Unit1" precision="INF">6741618</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c448" unitRef="Unit1" precision="INF">3699964</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c446" unitRef="Unit1" precision="INF">13000000</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c442" unitRef="Unit1" precision="INF">109017452</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c439" unitRef="Unit1" precision="INF">31718376</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c436" unitRef="Unit1" precision="INF">24828187</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:BalanceSheetyearEnding id="i198" contextRef="c435" unitRef="Unit1" precision="INF">18752086</cbs-gem:BalanceSheetyearEnding>
+  <cbs-gem:RevenuesactualReceivedInterest211 id="i201" contextRef="c388" unitRef="Unit1" precision="INF">6281</cbs-gem:RevenuesactualReceivedInterest211>
+  <cbs-gem:RevenuesactualReceivedInterest211 id="i201" contextRef="c411" unitRef="Unit1" precision="INF">2699</cbs-gem:RevenuesactualReceivedInterest211>
+  <cbs-gem:RevenuesactualReceivedInterest211 id="i201" contextRef="c406" unitRef="Unit1" precision="INF">340703</cbs-gem:RevenuesactualReceivedInterest211>
+  <cbs-gem:RevenuesactualReceivedDividends212 id="i202" contextRef="c412" unitRef="Unit1" precision="INF">203184</cbs-gem:RevenuesactualReceivedDividends212>
+  <cbs-gem-cont:Actual id="iActual" contextRef="c99999">Yes</cbs-gem-cont:Actual>
+  <cbs-gem-cont:AddressCity id="iAddressCity" contextRef="c99999">IJmuiden</cbs-gem-cont:AddressCity>
+  <cbs-gem-cont:AddressDescription id="iAddressDescription" contextRef="c99999">Dudokplein</cbs-gem-cont:AddressDescription>
+  <cbs-gem-cont:AddressStateOrCountyOrProvince id="iAddressStateOrCountyOrProvince" contextRef="c99999">Noord Holland</cbs-gem-cont:AddressStateOrCountyOrProvince>
+  <cbs-gem-cont:AddressStreetBoxDescription id="iAddressStreetBoxDescription" contextRef="c99999"> 1</cbs-gem-cont:AddressStreetBoxDescription>
+  <cbs-gem-cont:AddressZipOrPostalCode id="iAddressZipOrPostalCode" contextRef="c99999">1975EN</cbs-gem-cont:AddressZipOrPostalCode>
+  <cbs-gem-cont:Budgeted id="iBudgeted" contextRef="c99999">No</cbs-gem-cont:Budgeted>
+  <cbs-gem-cont:CityOrAreaCode id="iCityOrAreaCode" contextRef="c99999"></cbs-gem-cont:CityOrAreaCode>
+  <cbs-gem-cont:ContactAffiliation id="iContactAffiliation" contextRef="c99999">Financien</cbs-gem-cont:ContactAffiliation>
+  <cbs-gem-cont:ContactName id="iContactName" contextRef="c99999">M.R. Ten Bruggencate</cbs-gem-cont:ContactName>
+  <cbs-gem-cont:ContactTitlePositon id="iContactTitlePosition" contextRef="c99999"></cbs-gem-cont:ContactTitlePositon>
+  <cbs-gem-cont:CountryOrRegionCode id="iCountryOrRegionCode" contextRef="c99999">+31</cbs-gem-cont:CountryOrRegionCode>
+  <cbs-gem-cont:DocumentAuthor id="iDocumentAuthor" contextRef="c99999"></cbs-gem-cont:DocumentAuthor>
+  <cbs-gem-cont:DocumentCreationDate id="iDocumentCreationDate" contextRef="c99999">2015-07-30</cbs-gem-cont:DocumentCreationDate>
+  <cbs-gem-cont:DocumentDescription id="iDocumentDescription" contextRef="c99999">Kredo-kwartaal</cbs-gem-cont:DocumentDescription>
+  <cbs-gem-cont:DocumentIdentifier id="iDocumentIdentifier" contextRef="c99999">Kredo</cbs-gem-cont:DocumentIdentifier>
+  <cbs-gem-cont:DocumentIntendedRecipientsOrUsers id="iDocumentIntendedRecipientsOrUsers" contextRef="c99999">Centraal bureau voor de Statistiek</cbs-gem-cont:DocumentIntendedRecipientsOrUsers>
+  <cbs-gem-cont:DocumentTitle id="iDocumentTitle" contextRef="c99999"></cbs-gem-cont:DocumentTitle>
+  <cbs-gem-cont:EMailAddressDescription id="iEMailAddressDescription" contextRef="c99999"></cbs-gem-cont:EMailAddressDescription>
+  <cbs-gem-cont:EMailAddressInFull id="iEMailAddressInFull" contextRef="c99999">mbruggencate@velsen.nl</cbs-gem-cont:EMailAddressInFull>
+  <cbs-gem-cont:EntityBusinessDescription id="iEntityBusinessDescription" contextRef="c99999">06</cbs-gem-cont:EntityBusinessDescription>
+  <cbs-gem-cont:EntityLegalName id="iEntityLegalName" contextRef="c99999">Velsen</cbs-gem-cont:EntityLegalName>
+  <cbs-gem-cont:EntityTaxIdentificationNumber id="iEntityTaxIdentificationNumber" contextRef="c99999">0453</cbs-gem-cont:EntityTaxIdentificationNumber>
+  <cbs-gem-cont:EntityWebSites id="iEntitywebSites" contextRef="c99999"></cbs-gem-cont:EntityWebSites>
+  <cbs-gem-cont:LocalFaxNumber id="iLocalFaxNumber" contextRef="c99999"></cbs-gem-cont:LocalFaxNumber>
+  <cbs-gem-cont:LocalPhoneNumber id="iLocalPhoneNumber" contextRef="c99999">0255-567591</cbs-gem-cont:LocalPhoneNumber>
+  <cbs-gem-cont:PeriodEndDate id="iPeriodEndDate" contextRef="c99999">2015-06-30</cbs-gem-cont:PeriodEndDate>
+  <cbs-gem-cont:PeriodStartDate id="iPeriodStartDate" contextRef="c99999">2015-01-01</cbs-gem-cont:PeriodStartDate>
+</xbrli:xbrl>
